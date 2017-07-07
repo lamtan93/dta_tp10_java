@@ -1,9 +1,15 @@
 package Entity;
 
+import java.lang.reflect.Field;
+
 public class Pizza {
 
 	private int index;
+	
+	@ToString
 	private String code;
+	
+	@ToString
 	private String nom;
 	private double prix;
 	private CategoriePizza categoriePizza;
@@ -28,10 +34,28 @@ public class Pizza {
 		this.categoriePizza = categoriePizza;
 	}
 
-	public String toString() {
-		return index + "  " + code + "  " + nom + "    " + prix + "  " + categoriePizza+ "\n" ;
-	}
+//	public String toString() {
+//		return index + "  " + code + "  " + nom + "    " + prix + "  " + categoriePizza+ "\n" ;
+//	}
 
+	//TODO
+	public String toString() {
+        String chaine = "";
+        try {
+            for (Field field : this.getClass().getDeclaredFields()) {
+                ToString annotation = field.getAnnotation(ToString.class);
+                if (annotation != null) {
+                    chaine += " " + field.get(this).toString();
+                }
+            }
+        } catch (Exception e) {
+            System.out.println("Une erreur s'est produite "+e.getMessage());
+            return "";
+        }
+        return chaine;
+    }
+	
+	
 	public int getIndex() {
 		return index;
 	}
