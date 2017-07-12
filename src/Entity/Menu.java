@@ -37,7 +37,7 @@ public class Menu {
 		 
 	}
 	
-	test!!!
+	//test pour jenkins !!!
 	public void afficher(){
 		Scanner sc = new Scanner(System.in);
 		
