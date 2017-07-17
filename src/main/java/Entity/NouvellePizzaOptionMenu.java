@@ -2,8 +2,9 @@ package Entity;
 
 import java.util.Scanner;
 
-import Dao.PizzaDAOImpl;
-import Exception.StockageException;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import Service.PizzaManage;
 
 public class NouvellePizzaOptionMenu extends OptionMenu {
@@ -11,6 +12,8 @@ public class NouvellePizzaOptionMenu extends OptionMenu {
 	private PizzaManage pizzaManager;
 
 	Scanner sc;
+
+	private static final Logger LOG = LoggerFactory.getLogger(ListerPizzasOptionMenu.class);
 
 	public String getLibelle() {
 		String libelle = "2/ Ajouter une nouvelle pizza" + "\n";
@@ -26,17 +29,18 @@ public class NouvellePizzaOptionMenu extends OptionMenu {
 
 	public void execute()  {
 
-		System.out.println("******Ajouter une pizza*******");
-		System.out.print("Entrer un code : ");
+		LOG.info("******Ajouter une pizza*******");
+		LOG.info("Entrer un code : ");
 		String code = sc.next();
-		System.out.print("Entrer un nom : ");
+		LOG.info("Entrer un nom : ");
 		String nom = sc.next();
-		System.out.print("Entrer un prix : ");
+		LOG.info("Entrer un prix : ");
 		double prix = sc.nextDouble();
-		System.out.print("Quel categorie de pizza (Viande, Fromage, Vegetarien) ?:");
+		LOG.info("Quel categorie de pizza (Viande, Fromage, Vegetarien) ?:");
 		String categoriePizzaString = sc.next();
 		CategoriePizza categoriePizza = CategoriePizza.valueByLabel(categoriePizzaString);
 		
+
 		pizzaManager.addPizza(code, nom, prix, categoriePizza);
 	}
 

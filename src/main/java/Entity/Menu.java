@@ -1,17 +1,19 @@
 package Entity;
 
-import java.util.ArrayList;
 import java.util.Collection;
-import java.util.Collections;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
-import java.util.Set;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import Service.PizzaManage;
 
+
 public class Menu {
+
+	private static final Logger LOG = LoggerFactory.getLogger(Menu.class);
 
 	private Map<Integer,OptionMenu> actions;
 	
@@ -37,30 +39,31 @@ public class Menu {
 		 
 	}
 	
-	//test pour jenkins !!!
+
 	public void afficher(){
 		Scanner sc = new Scanner(System.in);
 		
 		while(true){
-			
-		System.out.println("====================================");
-        System.out.println("******Pizzeria Administration******");
-        System.out.println("====================================");
         
+			LOG.info("====================================");
+			LOG.info("******Pizzeria Administration******");
+			LOG.info("====================================");
+
+
         Collection<OptionMenu> optionsMenu = actions.values();
         for (OptionMenu optionMenu : optionsMenu) {
 			System.out.println(optionMenu.getLibelle());
 		}
         
-        
-        System.out.println("99/ Sortir");
-        System.out.print("====> Entrer votre choix : " + "\n");
+			LOG.info("99/ Sortir");
+			LOG.info("====> Entrer votre choix : " + "\n");
+
 		
         int choix = sc.nextInt();
         
         for (Integer mapKey : actions.keySet()) {
-        	//actions.get(mapKey) => values;
         	
+
         	if(choix == 1){
         		actions.get(1).execute();
         		break;
@@ -74,7 +77,7 @@ public class Menu {
         		actions.get(4).execute();
         		break;
         	}else{
-        		System.out.println("Au revoir");
+					LOG.info("Au revoir !");
         		System.exit(0);
         		
         	}

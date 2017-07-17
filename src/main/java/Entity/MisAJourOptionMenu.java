@@ -2,13 +2,17 @@ package Entity;
 
 import java.util.Scanner;
 
-import Dao.PizzaDAOImpl;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import Service.PizzaManage;
 
 public class MisAJourOptionMenu extends OptionMenu {
 
 	private PizzaManage pizzaManager;
 	public Scanner sc;
+
+	private static final Logger LOG = LoggerFactory.getLogger(MisAJourOptionMenu.class);
 
 	public String getLibelle() {
 		String libelle = "3/ Misa a jour d'une pizza" + "\n";
@@ -23,16 +27,16 @@ public class MisAJourOptionMenu extends OptionMenu {
 
 	public void execute() {
 
-		System.out.println("******Mise" + " \00e0 " + "jour d'une pizza*******");
-		System.out.println("Entrer l'index :");
+		LOG.info("******Mise" + " \00e0 " + "jour d'une pizza*******");
+		LOG.info("Entrer l'index :");
 		int index = sc.nextInt();
-		System.out.println("Entrer un code :");
+		LOG.info("Entrer un code :");
 		String code = sc.next();
-		System.out.println("Entrer un nom :");
+		LOG.info("Entrer un nom :");
 		String nom = sc.next();
-		System.out.println("Entrer prix :");
+		LOG.info("Entrer prix :");
 		double prix = sc.nextDouble();
-		System.out.println("Categorie: ");
+		LOG.info("Categorie: ");
 		String categorieString = sc.next();
 		
 		CategoriePizza categoriePizza = CategoriePizza.valueByLabel(categorieString);

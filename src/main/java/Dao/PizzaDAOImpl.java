@@ -4,10 +4,16 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import Entity.CategoriePizza;
 import Entity.Pizza;
+import dev.service.AppService;
 
 public class PizzaDAOImpl implements PizzaDAO{
+
+	private static final Logger LOG = LoggerFactory.getLogger(Pizza.class);
 
 	private List<Pizza> listPizza;
 	
@@ -41,24 +47,27 @@ public class PizzaDAOImpl implements PizzaDAO{
 	
 	@Override
 	public void displayAllPizza() {
-		System.out.println(" code "+ "  nom  "+ "     prix  "+ " categ "+"\n");
+		LOG.info(" code " + "  nom  " + "     prix  " + " categ " + "\n");
 		for (Pizza pizza : listPizza) {
 			System.out.println(pizza);
 		}
+		
+		new AppService().executer("Client a sélectionné 1 pour La liste !");
+
 	}
 	
 	
 	@Override
 	public void addPizza(Pizza pizza) {
 		listPizza.add(pizza);
-		
+		new AppService().executer("Client a rajouté une pizza dans la liste !");
 	}
 
 	@Override
 	public void addPizza(String code, String nom, double prix, CategoriePizza categoriePizza) {
 		Pizza newPizza = new Pizza(code, nom, prix, categoriePizza);
 		listPizza.add(newPizza);
-		
+		new AppService().executer("Client a rajouté une pizza dans la liste !");
 	}
 
 	
@@ -71,8 +80,8 @@ public class PizzaDAOImpl implements PizzaDAO{
 				pizza.setPrix(prix);
 			}
 		}
-		
-		
+		new AppService().executer("Client a mise à jour la liste de pizzas !" + " nouvelle pizza est: " + index + " "
+				+ code + " " + nom + " " + prix + " " + categoriePizza);
 	}
 
 	@Override
@@ -86,6 +95,6 @@ public class PizzaDAOImpl implements PizzaDAO{
 		    }
 		}
 		
-		
+		new AppService().executer("Client a supprimé une pizza à l'index: " + indexPizza);
 	}
 }

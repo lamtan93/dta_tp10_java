@@ -1,8 +1,13 @@
 package Entity;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import Service.PizzaManage;
 
 public class ListerPizzasOptionMenu extends OptionMenu {
+
+	private static final Logger LOG = LoggerFactory.getLogger(ListerPizzasOptionMenu.class);
 
 	private PizzaManage pizzaManager;
 
@@ -18,8 +23,9 @@ public class ListerPizzasOptionMenu extends OptionMenu {
 	}
 
 	public void execute() {
-		System.out.println("*******Les Pizzas*******" + "\n");
+		LOG.info("*******Les Pizzas*******" + "\n");
 		pizzaManager.displayListPizza();
 	}
 
+	
 }

@@ -2,13 +2,17 @@ package Entity;
 
 import java.util.Scanner;
 
-import Dao.PizzaDAOImpl;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import Service.PizzaManage;
 
 public class SupressionPizzaOptionMenu extends OptionMenu {
 
 	private PizzaManage pizzaManager;
 	Scanner sc;
+
+	private static Logger LOG = LoggerFactory.getLogger(SupressionPizzaOptionMenu.class);
 
 	public String getLibelle() {
 		String libelle = "4/ Supression d'une pizza " + "\n";
@@ -23,8 +27,8 @@ public class SupressionPizzaOptionMenu extends OptionMenu {
 	}
 
 	public void execute() {
-		System.out.println("*****Supression d'une pizza******");
-		System.out.print("Entrer l'index: ");
+		LOG.info("*****Supression d'une pizza******");
+		LOG.info("Entrer l'index: ");
 		int index = sc.nextInt();
 
 		pizzaManager.deletePizza(index);

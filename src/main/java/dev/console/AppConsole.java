@@ -1,4 +1,4 @@
-package Main;
+package dev.console;
 
 import Entity.Menu;
 

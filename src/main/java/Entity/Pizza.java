@@ -4,6 +4,7 @@ import java.lang.reflect.Field;
 
 public class Pizza {
 
+	@ToString
 	private int index;
 	
 	@ToString
@@ -11,7 +12,9 @@ public class Pizza {
 	
 	@ToString
 	private String nom;
+	@ToString
 	private double prix;
+	@ToString
 	private CategoriePizza categoriePizza;
 
 	public Pizza() {
