@@ -23,7 +23,7 @@ public class PizzaManage {
 	// Check infos
 	public boolean checkInfos(String code, String nom, double prix) {
 		boolean infosOK = true;
-		if ((code.trim().isEmpty()) || (nom.trim().isEmpty()) || (prix == 0)) {
+		if ((code.trim().isEmpty()) || (nom.trim().isEmpty()) || (prix == 0.0f)) {
 
 			LOG.info("Infos incorrectes, veuillez resaisir !");
 			infosOK = false;
@@ -46,7 +46,7 @@ public class PizzaManage {
 	}
 	
 	public void addPizza(String code, String nom, double prix, CategoriePizza categoriePizza) {
-		if (checkInfos(code, nom, prix) == true) {
+		if (checkInfos(code, nom, prix)) {
 			pizzaDAOImpl.addPizza(code, nom, prix, categoriePizza);
 		}
 
@@ -56,7 +56,7 @@ public class PizzaManage {
 	}
 
 	public void updatePizza(int index, String code, String nom, double prix, CategoriePizza categoriePizza) {
-		if (checkInfos(code, nom, prix) == true) {
+		if (checkInfos(code, nom, prix)) {
 			pizzaDAOImpl.updatePizza(index, code, nom, prix, categoriePizza);
 		}
 

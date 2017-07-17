@@ -2,6 +2,9 @@ package entity;
 
 import java.lang.reflect.Field;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 public class Pizza {
 
 	@ToString
@@ -20,6 +23,8 @@ public class Pizza {
 	public Pizza() {
 	}
 
+	private static final Logger LOG = LoggerFactory.getLogger(Pizza.class);
+
 	public Pizza(int index, String code, String nom, double prix, CategoriePizza categoriePizza) {
 
 		this.index = index;
@@ -37,9 +42,6 @@ public class Pizza {
 		this.categoriePizza = categoriePizza;
 	}
 
-//	public String toString() {
-//		return index + "  " + code + "  " + nom + "    " + prix + "  " + categoriePizza+ "\n" ;
-//	}
 
 	//TODO
 	public String toString() {
@@ -52,7 +54,7 @@ public class Pizza {
                 }
             }
         } catch (Exception e) {
-            System.out.println("Une erreur s'est produite "+e.getMessage());
+			LOG.info("Une erreur s'est produite " + e.getMessage());
             return "";
         }
         return chaine;

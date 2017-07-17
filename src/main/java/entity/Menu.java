@@ -52,7 +52,7 @@ public class Menu {
 
         Collection<OptionMenu> optionsMenu = actions.values();
         for (OptionMenu optionMenu : optionsMenu) {
-			System.out.println(optionMenu.getLibelle());
+				LOG.info(optionMenu.getLibelle());
 		}
         
 			LOG.info("99/ Sortir");
