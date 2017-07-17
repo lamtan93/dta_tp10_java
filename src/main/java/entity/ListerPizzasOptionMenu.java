@@ -1,9 +1,9 @@
-package Entity;
+package entity;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import Service.PizzaManage;
+import service.PizzaManage;
 
 public class ListerPizzasOptionMenu extends OptionMenu {
 

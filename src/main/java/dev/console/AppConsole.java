@@ -1,6 +1,6 @@
 package dev.console;
 
-import Entity.Menu;
+import entity.Menu;
 
 public class AppConsole {
 

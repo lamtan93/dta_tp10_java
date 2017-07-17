@@ -36,7 +36,7 @@
 
 <!-- politique de log pour les classes du package dev.console -->
 
-<logger name="Entity" level="INFO">
+<logger name="entity" level="INFO">
 
 <appender-ref ref="STDOUT" />
 

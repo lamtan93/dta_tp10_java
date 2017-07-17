@@ -1,4 +1,4 @@
-package Dao;
+package dao;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -7,9 +7,9 @@ import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import Entity.CategoriePizza;
-import Entity.Pizza;
 import dev.service.AppService;
+import entity.CategoriePizza;
+import entity.Pizza;
 
 public class PizzaDAOImpl implements PizzaDAO{
 

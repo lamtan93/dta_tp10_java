@@ -1,7 +1,7 @@
-package Dao;
+package dao;
 
-import Entity.CategoriePizza;
-import Entity.Pizza;
+import entity.CategoriePizza;
+import entity.Pizza;
 
 public interface PizzaDAO {
 	

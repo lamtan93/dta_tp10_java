@@ -1,11 +1,11 @@
-package Entity;
+package entity;
 
 import java.util.Scanner;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import Service.PizzaManage;
+import service.PizzaManage;
 
 public class NouvellePizzaOptionMenu extends OptionMenu {
 
