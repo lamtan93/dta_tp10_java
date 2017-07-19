@@ -47,7 +47,7 @@ public class PizzaManage {
 	
 	public void addPizza(String code, String nom, double prix, CategoriePizza categoriePizza) {
 		if (checkInfos(code, nom, prix)) {
-			pizzaDAOImpl.addPizza(code, nom, prix, categoriePizza);
+			pizzaDAOImpl.addPizza( code, nom, prix, categoriePizza);
 		}
 
 

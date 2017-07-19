@@ -2,7 +2,7 @@ package entity;
 
 public enum CategoriePizza {
 
-	VIANDE("Viande"), FROMAGE ("Fromage"), VEGETARIEN("V�g�tatarien");  
+	VIANDE("Viande"), FROMAGE ("Fromage"), VEGETARIEN("Vegetarien");  
    
 	private String libelle;
 	
