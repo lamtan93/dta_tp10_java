@@ -7,6 +7,7 @@ import org.slf4j.LoggerFactory;
 import dao.PizzaDAOImpl;
 import entity.CategoriePizza;
 import entity.Pizza;
+import exception.DeletePizzaException;
 
 
 public class PizzaManage {
@@ -63,7 +64,13 @@ public class PizzaManage {
 	}
 
 	public void deletePizza(int indexPizza) {
-		pizzaDAOImpl.deletePizza(indexPizza);
+		try {
+			pizzaDAOImpl.deletePizza(indexPizza);	
+		} catch (DeletePizzaException e) {
+			LOG.info(e.getMessage());
+			
+		}
+		
 
 	}
 

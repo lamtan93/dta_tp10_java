@@ -42,6 +42,12 @@
 
 </logger>
 
+<logger name="service" level="INFO">
+
+<appender-ref ref="STDOUT" />
+
+</logger>
+
 <!-- règle de logs par défaut. Ici : niveau INFO vers la sortie standard -->
 
 <root level="DEBUG">

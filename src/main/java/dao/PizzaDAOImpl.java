@@ -10,6 +10,7 @@ import org.slf4j.LoggerFactory;
 import dev.service.AppService;
 import entity.CategoriePizza;
 import entity.Pizza;
+import exception.DeletePizzaException;
 
 public class PizzaDAOImpl implements PizzaDAO{
 
@@ -92,16 +93,25 @@ public class PizzaDAOImpl implements PizzaDAO{
 	}
 
 	@Override
-	public void deletePizza(int indexPizza) {
-		
-		for (Iterator<Pizza> it = listPizza.iterator(); it.hasNext(); ) {
-
-		    Pizza pizzaNul = it.next();
-		    if (pizzaNul.getIndex()==  indexPizza) {
-		       it.remove();
-		    }
+	public void deletePizza(int indexPizza)throws DeletePizzaException {
+		boolean indexFound = false;
+		 for (Pizza pizza : listPizza) {
+			if(pizza.getIndex() == indexPizza){
+				indexFound = true;
+			}
 		}
 		
-		new AppService().executer("Client a supprimé une pizza à l'index: " + indexPizza + " " + listPizza.get(indexPizza).getNom());
+		if(indexFound){
+			listPizza.remove(indexPizza);
+			new AppService().executer("Client a supprimé une pizza à l'index: " + indexPizza + " " + listPizza.get(indexPizza).getNom());
+			LOG.info("Supression OK !");
+		}else{
+			new AppService().executer(String.valueOf(DeletePizzaException.ERRTYPE_DELETE_PIZZA));
+			new AppService().executer(DeletePizzaException.DELETEPIZZA_INDEX_NOT_CORRECT);
+			throw new DeletePizzaException(DeletePizzaException.DELETEPIZZA_INDEX_NOT_CORRECT, DeletePizzaException.ERRTYPE_DELETE_PIZZA);
+			
+		}
+		
+		
 	}
 }
