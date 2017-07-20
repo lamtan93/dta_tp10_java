@@ -59,7 +59,7 @@ public class PizzaDAOImpl implements PizzaDAO{
 	@Override
 	public void addPizza(Pizza pizza) {
 		listPizza.add(pizza);
-		new AppService().executer("Client a rajouté une pizza dans la liste !");
+		new AppService().executer("Client a ajouté une pizza dans la liste !");
 	}
 
 	@Override
@@ -68,7 +68,8 @@ public class PizzaDAOImpl implements PizzaDAO{
 		newPizza.setIndex(listPizza.size());
 		
 		listPizza.add(newPizza);
-		new AppService().executer("Client a rajouté une pizza dans la liste !"+"\n"+newPizza.getIndex()
+		new AppService().executer(
+				"Client a ajouté une pizza dans la liste !" + "\n" + newPizza.getIndex()
 		+" " + newPizza.getCode()+" "+ newPizza.getNom() + " " + newPizza.getPrix() + " "+ newPizza.getCategoriePizza()
 		);
 	}

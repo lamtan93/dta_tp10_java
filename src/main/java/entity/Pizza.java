@@ -43,7 +43,7 @@ public class Pizza {
 	}
 
 
-	//TODO
+	
 	public String toString() {
         String chaine = "";
         try {

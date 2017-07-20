@@ -717,3 +717,1052 @@ Traitement 1 : param = Client a mise à jour la liste de pizzas ! nouvelle pizza
 13:33:21.045 [main] DEBUG dev.service.AppService -
 
 Traitement 1 : param = Client a rajouté une pizza dans la liste !
+13:56:50.387 [main] INFO  entity.Menu -
+
+====================================
+13:56:50.387 [main] INFO  entity.Menu -
+
+******Pizzeria Administration******
+13:56:50.387 [main] INFO  entity.Menu -
+
+====================================
+13:56:50.387 [main] INFO  entity.Menu -
+
+1/ Lister les pizzas
+
+13:56:50.387 [main] INFO  entity.Menu -
+
+2/ Ajouter une nouvelle pizza
+
+13:56:50.387 [main] INFO  entity.Menu -
+
+3/ Misa a jour d'une pizza
+
+13:56:50.387 [main] INFO  entity.Menu -
+
+4/ Supression d'une pizza 
+
+13:56:50.387 [main] INFO  entity.Menu -
+
+99/ Sortir
+13:56:50.387 [main] INFO  entity.Menu -
+
+====> Entrer votre choix : 
+
+13:58:38.357 [main] INFO  entity.Menu -
+
+====================================
+13:58:38.357 [main] INFO  entity.Menu -
+
+******Pizzeria Administration******
+13:58:38.357 [main] INFO  entity.Menu -
+
+====================================
+13:58:38.357 [main] INFO  entity.Menu -
+
+1/ Lister les pizzas
+
+13:58:38.357 [main] INFO  entity.Menu -
+
+2/ Ajouter une nouvelle pizza
+
+13:58:38.357 [main] INFO  entity.Menu -
+
+3/ Misa a jour d'une pizza
+
+13:58:38.357 [main] INFO  entity.Menu -
+
+4/ Supression d'une pizza 
+
+13:58:38.357 [main] INFO  entity.Menu -
+
+99/ Sortir
+13:58:38.357 [main] INFO  entity.Menu -
+
+====> Entrer votre choix : 
+
+14:00:06.107 [main] INFO  entity.Menu -
+
+====================================
+14:00:06.107 [main] INFO  entity.Menu -
+
+******Pizzeria Administration******
+14:00:06.107 [main] INFO  entity.Menu -
+
+====================================
+14:00:06.107 [main] INFO  entity.Menu -
+
+1/ Lister les pizzas
+
+14:00:06.107 [main] INFO  entity.Menu -
+
+2/ Ajouter une nouvelle pizza
+
+14:00:06.107 [main] INFO  entity.Menu -
+
+3/ Misa a jour d'une pizza
+
+14:00:06.107 [main] INFO  entity.Menu -
+
+4/ Supression d'une pizza 
+
+14:00:06.107 [main] INFO  entity.Menu -
+
+99/ Sortir
+14:00:06.107 [main] INFO  entity.Menu -
+
+====> Entrer votre choix : 
+
+14:05:17.239 [main] INFO  entity.Menu -
+
+====================================
+14:05:17.239 [main] INFO  entity.Menu -
+
+******Pizzeria Administration******
+14:05:17.239 [main] INFO  entity.Menu -
+
+====================================
+14:05:17.239 [main] INFO  entity.Menu -
+
+1/ Lister les pizzas
+
+14:05:17.239 [main] INFO  entity.Menu -
+
+2/ Ajouter une nouvelle pizza
+
+14:05:17.239 [main] INFO  entity.Menu -
+
+3/ Misa a jour d'une pizza
+
+14:05:17.239 [main] INFO  entity.Menu -
+
+4/ Supression d'une pizza 
+
+14:05:17.239 [main] INFO  entity.Menu -
+
+99/ Sortir
+14:05:17.239 [main] INFO  entity.Menu -
+
+====> Entrer votre choix : 
+
+14:06:28.447 [main] INFO  entity.ListerPizzasOptionMenu -
+
+*******Les Pizzas*******
+
+14:06:28.451 [main] INFO  entity.Pizza -
+
+ code   nom       prix   categ 
+
+14:06:28.452 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a sélectionné 1 pour La liste !
+14:06:28.452 [main] INFO  entity.Menu -
+
+====================================
+14:06:28.452 [main] INFO  entity.Menu -
+
+******Pizzeria Administration******
+14:06:28.452 [main] INFO  entity.Menu -
+
+====================================
+14:06:28.452 [main] INFO  entity.Menu -
+
+1/ Lister les pizzas
+
+14:06:28.452 [main] INFO  entity.Menu -
+
+2/ Ajouter une nouvelle pizza
+
+14:06:28.452 [main] INFO  entity.Menu -
+
+3/ Misa a jour d'une pizza
+
+14:06:28.452 [main] INFO  entity.Menu -
+
+4/ Supression d'une pizza 
+
+14:06:28.452 [main] INFO  entity.Menu -
+
+99/ Sortir
+14:06:28.452 [main] INFO  entity.Menu -
+
+====> Entrer votre choix : 
+
+14:06:35.359 [main] INFO  entity.ListerPizzasOptionMenu -
+
+******Ajouter une pizza*******
+14:06:35.371 [main] INFO  entity.ListerPizzasOptionMenu -
+
+Entrer un code : 
+14:06:37.716 [main] INFO  entity.ListerPizzasOptionMenu -
+
+Entrer un nom : 
+14:06:38.302 [main] INFO  entity.ListerPizzasOptionMenu -
+
+Entrer un prix : 
+14:06:39.708 [main] INFO  entity.ListerPizzasOptionMenu -
+
+Quel categorie de pizza (Viande, Fromage, Vegetarien) ?:
+14:06:42.278 [main] INFO  service.PizzaManage -
+
+Infos incorrectes, veuillez resaisir !
+14:06:42.291 [main] INFO  entity.Menu -
+
+====================================
+14:06:42.291 [main] INFO  entity.Menu -
+
+******Pizzeria Administration******
+14:06:42.291 [main] INFO  entity.Menu -
+
+====================================
+14:06:42.291 [main] INFO  entity.Menu -
+
+1/ Lister les pizzas
+
+14:06:42.291 [main] INFO  entity.Menu -
+
+2/ Ajouter une nouvelle pizza
+
+14:06:42.291 [main] INFO  entity.Menu -
+
+3/ Misa a jour d'une pizza
+
+14:06:42.291 [main] INFO  entity.Menu -
+
+4/ Supression d'une pizza 
+
+14:06:42.291 [main] INFO  entity.Menu -
+
+99/ Sortir
+14:06:42.291 [main] INFO  entity.Menu -
+
+====> Entrer votre choix : 
+
+14:34:00.251 [main] INFO  entity.Menu -
+
+Au revoir !
+15:48:48.020 [main] INFO  test.Test_Ihm -
+
+HelloWorld
+15:48:57.824 [main] INFO  test.Test_Ihm -
+
+HelloWorld
+15:49:17.217 [main] INFO  test.Test_Ihm -
+
+HelloWorld
+15:55:56.123 [main] INFO  entity.Menu -
+
+====================================
+15:55:56.123 [main] INFO  entity.Menu -
+
+******Pizzeria Administration******
+15:55:56.123 [main] INFO  entity.Menu -
+
+====================================
+15:55:56.123 [main] INFO  entity.Menu -
+
+1/ Lister les pizzas
+
+15:55:56.123 [main] INFO  entity.Menu -
+
+2/ Ajouter une nouvelle pizza
+
+15:55:56.123 [main] INFO  entity.Menu -
+
+3/ Misa a jour d'une pizza
+
+15:55:56.123 [main] INFO  entity.Menu -
+
+4/ Supression d'une pizza 
+
+15:55:56.123 [main] INFO  entity.Menu -
+
+99/ Sortir
+15:55:56.123 [main] INFO  entity.Menu -
+
+====> Entrer votre choix : 
+
+15:56:54.049 [main] INFO  entity.Menu -
+
+====================================
+15:56:54.049 [main] INFO  entity.Menu -
+
+******Pizzeria Administration******
+15:56:54.049 [main] INFO  entity.Menu -
+
+====================================
+15:56:54.049 [main] INFO  entity.Menu -
+
+1/ Lister les pizzas
+
+15:56:54.049 [main] INFO  entity.Menu -
+
+2/ Ajouter une nouvelle pizza
+
+15:56:54.049 [main] INFO  entity.Menu -
+
+3/ Misa a jour d'une pizza
+
+15:56:54.049 [main] INFO  entity.Menu -
+
+4/ Supression d'une pizza 
+
+15:56:54.049 [main] INFO  entity.Menu -
+
+99/ Sortir
+15:56:54.049 [main] INFO  entity.Menu -
+
+====> Entrer votre choix : 
+
+15:58:57.091 [main] INFO  entity.Menu -
+
+====================================
+15:58:57.091 [main] INFO  entity.Menu -
+
+******Pizzeria Administration******
+15:58:57.091 [main] INFO  entity.Menu -
+
+====================================
+15:58:57.091 [main] INFO  entity.Menu -
+
+1/ Lister les pizzas
+
+15:58:57.091 [main] INFO  entity.Menu -
+
+2/ Ajouter une nouvelle pizza
+
+15:58:57.091 [main] INFO  entity.Menu -
+
+3/ Misa a jour d'une pizza
+
+15:58:57.091 [main] INFO  entity.Menu -
+
+4/ Supression d'une pizza 
+
+15:58:57.091 [main] INFO  entity.Menu -
+
+99/ Sortir
+15:58:57.091 [main] INFO  entity.Menu -
+
+====> Entrer votre choix : 
+
+15:59:57.207 [main] INFO  entity.Menu -
+
+====================================
+15:59:57.223 [main] INFO  entity.Menu -
+
+******Pizzeria Administration******
+15:59:57.223 [main] INFO  entity.Menu -
+
+====================================
+15:59:57.223 [main] INFO  entity.Menu -
+
+1/ Lister les pizzas
+
+15:59:57.223 [main] INFO  entity.Menu -
+
+2/ Ajouter une nouvelle pizza
+
+15:59:57.223 [main] INFO  entity.Menu -
+
+3/ Misa a jour d'une pizza
+
+15:59:57.223 [main] INFO  entity.Menu -
+
+4/ Supression d'une pizza 
+
+15:59:57.223 [main] INFO  entity.Menu -
+
+99/ Sortir
+15:59:57.223 [main] INFO  entity.Menu -
+
+====> Entrer votre choix : 
+
+16:56:26.744 [main] INFO  entity.Menu -
+
+====================================
+16:56:26.759 [main] INFO  entity.Menu -
+
+******Pizzeria Administration******
+16:56:26.759 [main] INFO  entity.Menu -
+
+====================================
+16:56:26.759 [main] INFO  entity.Menu -
+
+1/ Lister les pizzas
+
+16:56:26.759 [main] INFO  entity.Menu -
+
+2/ Ajouter une nouvelle pizza
+
+16:56:26.759 [main] INFO  entity.Menu -
+
+3/ Misa a jour d'une pizza
+
+16:56:26.759 [main] INFO  entity.Menu -
+
+4/ Supression d'une pizza 
+
+16:56:26.759 [main] INFO  entity.Menu -
+
+99/ Sortir
+16:56:26.759 [main] INFO  entity.Menu -
+
+====> Entrer votre choix : 
+
+16:56:36.474 [main] INFO  entity.Menu -
+
+====================================
+16:56:36.474 [main] INFO  entity.Menu -
+
+******Pizzeria Administration******
+16:56:36.474 [main] INFO  entity.Menu -
+
+====================================
+16:56:36.474 [main] INFO  entity.Menu -
+
+1/ Lister les pizzas
+
+16:56:36.474 [main] INFO  entity.Menu -
+
+2/ Ajouter une nouvelle pizza
+
+16:56:36.474 [main] INFO  entity.Menu -
+
+3/ Misa a jour d'une pizza
+
+16:56:36.474 [main] INFO  entity.Menu -
+
+4/ Supression d'une pizza 
+
+16:56:36.474 [main] INFO  entity.Menu -
+
+99/ Sortir
+16:56:36.474 [main] INFO  entity.Menu -
+
+====> Entrer votre choix : 
+
+16:58:46.693 [main] INFO  entity.Menu -
+
+====================================
+16:58:46.693 [main] INFO  entity.Menu -
+
+******Pizzeria Administration******
+16:58:46.693 [main] INFO  entity.Menu -
+
+====================================
+16:58:46.693 [main] INFO  entity.Menu -
+
+1/ Lister les pizzas
+
+16:58:46.693 [main] INFO  entity.Menu -
+
+2/ Ajouter une nouvelle pizza
+
+16:58:46.693 [main] INFO  entity.Menu -
+
+3/ Misa a jour d'une pizza
+
+16:58:46.693 [main] INFO  entity.Menu -
+
+4/ Supression d'une pizza 
+
+16:58:46.693 [main] INFO  entity.Menu -
+
+99/ Sortir
+16:58:46.693 [main] INFO  entity.Menu -
+
+====> Entrer votre choix : 
+
+16:58:55.395 [main] INFO  test.Test_Ihm -
+
+Hello
+17:00:46.215 [main] INFO  test.Test_Ihm -
+
+Hello
+17:01:46.660 [main] INFO  test.Test_Ihm -
+
+Hello
+17:03:11.867 [main] INFO  test.Test_Ihm -
+
+Hello
+17:03:21.730 [main] INFO  test.Test_Ihm -
+
+Hello
+17:20:14.259 [main] INFO  test.Test_Ihm -
+
+Hello
+17:20:56.147 [main] INFO  entity.Menu -
+
+====================================
+17:20:56.147 [main] INFO  entity.Menu -
+
+******Pizzeria Administration******
+17:20:56.147 [main] INFO  entity.Menu -
+
+====================================
+17:20:56.147 [main] INFO  entity.Menu -
+
+1/ Lister les pizzas
+
+17:20:56.147 [main] INFO  entity.Menu -
+
+2/ Ajouter une nouvelle pizza
+
+17:20:56.147 [main] INFO  entity.Menu -
+
+3/ Misa a jour d'une pizza
+
+17:20:56.147 [main] INFO  entity.Menu -
+
+4/ Supression d'une pizza 
+
+17:20:56.147 [main] INFO  entity.Menu -
+
+99/ Sortir
+17:20:56.147 [main] INFO  entity.Menu -
+
+====> Entrer votre choix : 
+
+17:21:27.711 [main] INFO  entity.Menu -
+
+====================================
+17:21:27.726 [main] INFO  entity.Menu -
+
+******Pizzeria Administration******
+17:21:27.726 [main] INFO  entity.Menu -
+
+====================================
+17:21:27.726 [main] INFO  entity.Menu -
+
+1/ Lister les pizzas
+
+17:21:27.726 [main] INFO  entity.Menu -
+
+2/ Ajouter une nouvelle pizza
+
+17:21:27.726 [main] INFO  entity.Menu -
+
+3/ Misa a jour d'une pizza
+
+17:21:27.726 [main] INFO  entity.Menu -
+
+4/ Supression d'une pizza 
+
+17:21:27.726 [main] INFO  entity.Menu -
+
+99/ Sortir
+17:21:27.726 [main] INFO  entity.Menu -
+
+====> Entrer votre choix : 
+
+17:23:20.052 [main] INFO  entity.Menu -
+
+====================================
+17:23:20.054 [main] INFO  entity.Menu -
+
+******Pizzeria Administration******
+17:23:20.054 [main] INFO  entity.Menu -
+
+====================================
+17:23:20.054 [main] INFO  entity.Menu -
+
+1/ Lister les pizzas
+
+17:23:20.054 [main] INFO  entity.Menu -
+
+2/ Ajouter une nouvelle pizza
+
+17:23:20.054 [main] INFO  entity.Menu -
+
+3/ Misa a jour d'une pizza
+
+17:23:20.054 [main] INFO  entity.Menu -
+
+4/ Supression d'une pizza 
+
+17:23:20.054 [main] INFO  entity.Menu -
+
+99/ Sortir
+17:23:20.054 [main] INFO  entity.Menu -
+
+====> Entrer votre choix : 
+
+17:23:20.056 [main] INFO  entity.Menu -
+
+Au revoir !
+17:23:45.165 [main] INFO  entity.Menu -
+
+====================================
+17:23:45.167 [main] INFO  entity.Menu -
+
+******Pizzeria Administration******
+17:23:45.168 [main] INFO  entity.Menu -
+
+====================================
+17:23:45.168 [main] INFO  entity.Menu -
+
+1/ Lister les pizzas
+
+17:23:45.168 [main] INFO  entity.Menu -
+
+2/ Ajouter une nouvelle pizza
+
+17:23:45.168 [main] INFO  entity.Menu -
+
+3/ Misa a jour d'une pizza
+
+17:23:45.168 [main] INFO  entity.Menu -
+
+4/ Supression d'une pizza 
+
+17:23:45.168 [main] INFO  entity.Menu -
+
+99/ Sortir
+17:23:45.168 [main] INFO  entity.Menu -
+
+====> Entrer votre choix : 
+
+17:23:45.170 [main] INFO  entity.Menu -
+
+Au revoir !
+17:24:03.445 [main] INFO  entity.Menu -
+
+====================================
+17:24:03.445 [main] INFO  entity.Menu -
+
+******Pizzeria Administration******
+17:24:03.445 [main] INFO  entity.Menu -
+
+====================================
+17:24:03.445 [main] INFO  entity.Menu -
+
+1/ Lister les pizzas
+
+17:24:03.445 [main] INFO  entity.Menu -
+
+2/ Ajouter une nouvelle pizza
+
+17:24:03.445 [main] INFO  entity.Menu -
+
+3/ Misa a jour d'une pizza
+
+17:24:03.445 [main] INFO  entity.Menu -
+
+4/ Supression d'une pizza 
+
+17:24:03.445 [main] INFO  entity.Menu -
+
+99/ Sortir
+17:24:03.445 [main] INFO  entity.Menu -
+
+====> Entrer votre choix : 
+
+17:24:03.445 [main] INFO  entity.Menu -
+
+Au revoir !
+17:24:19.874 [main] INFO  entity.Menu -
+
+====================================
+17:24:19.874 [main] INFO  entity.Menu -
+
+******Pizzeria Administration******
+17:24:19.874 [main] INFO  entity.Menu -
+
+====================================
+17:24:19.874 [main] INFO  entity.Menu -
+
+1/ Lister les pizzas
+
+17:24:19.874 [main] INFO  entity.Menu -
+
+2/ Ajouter une nouvelle pizza
+
+17:24:19.874 [main] INFO  entity.Menu -
+
+3/ Misa a jour d'une pizza
+
+17:24:19.874 [main] INFO  entity.Menu -
+
+4/ Supression d'une pizza 
+
+17:24:19.874 [main] INFO  entity.Menu -
+
+99/ Sortir
+17:24:19.874 [main] INFO  entity.Menu -
+
+====> Entrer votre choix : 
+
+17:24:19.874 [main] INFO  entity.Menu -
+
+Au revoir !
+17:24:51.170 [main] INFO  entity.Menu -
+
+====================================
+17:24:51.186 [main] INFO  entity.Menu -
+
+******Pizzeria Administration******
+17:24:51.186 [main] INFO  entity.Menu -
+
+====================================
+17:24:51.186 [main] INFO  entity.Menu -
+
+1/ Lister les pizzas
+
+17:24:51.186 [main] INFO  entity.Menu -
+
+2/ Ajouter une nouvelle pizza
+
+17:24:51.186 [main] INFO  entity.Menu -
+
+3/ Misa a jour d'une pizza
+
+17:24:51.186 [main] INFO  entity.Menu -
+
+4/ Supression d'une pizza 
+
+17:24:51.186 [main] INFO  entity.Menu -
+
+99/ Sortir
+17:24:51.186 [main] INFO  entity.Menu -
+
+====> Entrer votre choix : 
+
+17:24:51.186 [main] INFO  entity.Menu -
+
+Au revoir !
+17:25:03.359 [main] INFO  entity.Menu -
+
+====================================
+17:25:03.380 [main] INFO  entity.Menu -
+
+******Pizzeria Administration******
+17:25:03.380 [main] INFO  entity.Menu -
+
+====================================
+17:25:03.380 [main] INFO  entity.Menu -
+
+1/ Lister les pizzas
+
+17:25:03.380 [main] INFO  entity.Menu -
+
+2/ Ajouter une nouvelle pizza
+
+17:25:03.380 [main] INFO  entity.Menu -
+
+3/ Misa a jour d'une pizza
+
+17:25:03.380 [main] INFO  entity.Menu -
+
+4/ Supression d'une pizza 
+
+17:25:03.380 [main] INFO  entity.Menu -
+
+99/ Sortir
+17:25:03.380 [main] INFO  entity.Menu -
+
+====> Entrer votre choix : 
+
+17:25:03.380 [main] INFO  entity.Menu -
+
+Au revoir !
+17:26:23.760 [main] INFO  entity.Menu -
+
+====================================
+17:26:23.760 [main] INFO  entity.Menu -
+
+******Pizzeria Administration******
+17:26:23.760 [main] INFO  entity.Menu -
+
+====================================
+17:26:23.760 [main] INFO  entity.Menu -
+
+1/ Lister les pizzas
+
+17:26:23.760 [main] INFO  entity.Menu -
+
+2/ Ajouter une nouvelle pizza
+
+17:26:23.760 [main] INFO  entity.Menu -
+
+3/ Misa a jour d'une pizza
+
+17:26:23.760 [main] INFO  entity.Menu -
+
+4/ Supression d'une pizza 
+
+17:26:23.760 [main] INFO  entity.Menu -
+
+99/ Sortir
+17:26:23.760 [main] INFO  entity.Menu -
+
+====> Entrer votre choix : 
+
+17:26:23.760 [main] INFO  entity.ListerPizzasOptionMenu -
+
+*******Les Pizzas*******
+
+17:26:23.760 [main] INFO  entity.Pizza -
+
+ code   nom       prix   categ 
+
+17:26:23.760 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a sélectionné 1 pour La liste !
+17:26:23.775 [main] INFO  entity.Menu -
+
+====================================
+17:26:23.775 [main] INFO  entity.Menu -
+
+******Pizzeria Administration******
+17:26:23.775 [main] INFO  entity.Menu -
+
+====================================
+17:26:23.775 [main] INFO  entity.Menu -
+
+1/ Lister les pizzas
+
+17:26:23.775 [main] INFO  entity.Menu -
+
+2/ Ajouter une nouvelle pizza
+
+17:26:23.775 [main] INFO  entity.Menu -
+
+3/ Misa a jour d'une pizza
+
+17:26:23.775 [main] INFO  entity.Menu -
+
+4/ Supression d'une pizza 
+
+17:26:23.775 [main] INFO  entity.Menu -
+
+99/ Sortir
+17:26:23.775 [main] INFO  entity.Menu -
+
+====> Entrer votre choix : 
+
+17:28:13.607 [main] INFO  entity.Menu -
+
+====================================
+17:28:13.622 [main] INFO  entity.Menu -
+
+******Pizzeria Administration******
+17:28:13.622 [main] INFO  entity.Menu -
+
+====================================
+17:28:13.622 [main] INFO  entity.Menu -
+
+1/ Lister les pizzas
+
+17:28:13.622 [main] INFO  entity.Menu -
+
+2/ Ajouter une nouvelle pizza
+
+17:28:13.622 [main] INFO  entity.Menu -
+
+3/ Misa a jour d'une pizza
+
+17:28:13.622 [main] INFO  entity.Menu -
+
+4/ Supression d'une pizza 
+
+17:28:13.622 [main] INFO  entity.Menu -
+
+99/ Sortir
+17:28:13.622 [main] INFO  entity.Menu -
+
+====> Entrer votre choix : 
+
+17:28:13.622 [main] INFO  entity.ListerPizzasOptionMenu -
+
+*******Les Pizzas*******
+
+17:28:13.622 [main] INFO  entity.Pizza -
+
+ code   nom       prix   categ 
+
+17:28:13.622 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a sélectionné 1 pour La liste !
+17:28:13.622 [main] INFO  entity.Menu -
+
+====================================
+17:28:13.622 [main] INFO  entity.Menu -
+
+******Pizzeria Administration******
+17:28:13.622 [main] INFO  entity.Menu -
+
+====================================
+17:28:13.622 [main] INFO  entity.Menu -
+
+1/ Lister les pizzas
+
+17:28:13.622 [main] INFO  entity.Menu -
+
+2/ Ajouter une nouvelle pizza
+
+17:28:13.622 [main] INFO  entity.Menu -
+
+3/ Misa a jour d'une pizza
+
+17:28:13.622 [main] INFO  entity.Menu -
+
+4/ Supression d'une pizza 
+
+17:28:13.622 [main] INFO  entity.Menu -
+
+99/ Sortir
+17:28:13.622 [main] INFO  entity.Menu -
+
+====> Entrer votre choix : 
+
+17:29:51.985 [main] INFO  entity.Menu -
+
+====================================
+17:29:51.985 [main] INFO  entity.Menu -
+
+******Pizzeria Administration******
+17:29:51.985 [main] INFO  entity.Menu -
+
+====================================
+17:29:51.985 [main] INFO  entity.Menu -
+
+1/ Lister les pizzas
+
+17:29:51.985 [main] INFO  entity.Menu -
+
+2/ Ajouter une nouvelle pizza
+
+17:29:51.985 [main] INFO  entity.Menu -
+
+3/ Misa a jour d'une pizza
+
+17:29:51.985 [main] INFO  entity.Menu -
+
+4/ Supression d'une pizza 
+
+17:29:51.985 [main] INFO  entity.Menu -
+
+99/ Sortir
+17:29:51.985 [main] INFO  entity.Menu -
+
+====> Entrer votre choix : 
+
+17:29:51.985 [main] INFO  entity.ListerPizzasOptionMenu -
+
+*******Les Pizzas*******
+
+17:29:51.985 [main] INFO  entity.Pizza -
+
+ code   nom       prix   categ 
+
+17:29:51.985 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a sélectionné 1 pour La liste !
+17:29:51.985 [main] INFO  entity.Menu -
+
+====================================
+17:29:51.985 [main] INFO  entity.Menu -
+
+******Pizzeria Administration******
+17:29:51.985 [main] INFO  entity.Menu -
+
+====================================
+17:29:51.985 [main] INFO  entity.Menu -
+
+1/ Lister les pizzas
+
+17:29:51.985 [main] INFO  entity.Menu -
+
+2/ Ajouter une nouvelle pizza
+
+17:29:51.985 [main] INFO  entity.Menu -
+
+3/ Misa a jour d'une pizza
+
+17:29:51.985 [main] INFO  entity.Menu -
+
+4/ Supression d'une pizza 
+
+17:29:51.985 [main] INFO  entity.Menu -
+
+99/ Sortir
+17:29:51.985 [main] INFO  entity.Menu -
+
+====> Entrer votre choix : 
+
+17:32:15.505 [main] INFO  entity.Menu -
+
+====================================
+17:32:15.505 [main] INFO  entity.Menu -
+
+******Pizzeria Administration******
+17:32:15.505 [main] INFO  entity.Menu -
+
+====================================
+17:32:15.505 [main] INFO  entity.Menu -
+
+1/ Lister les pizzas
+
+17:32:15.505 [main] INFO  entity.Menu -
+
+2/ Ajouter une nouvelle pizza
+
+17:32:15.505 [main] INFO  entity.Menu -
+
+3/ Misa a jour d'une pizza
+
+17:32:15.505 [main] INFO  entity.Menu -
+
+4/ Supression d'une pizza 
+
+17:32:15.505 [main] INFO  entity.Menu -
+
+99/ Sortir
+17:32:15.505 [main] INFO  entity.Menu -
+
+====> Entrer votre choix : 
+
+17:32:15.521 [main] INFO  entity.ListerPizzasOptionMenu -
+
+*******Les Pizzas*******
+
+17:32:15.521 [main] INFO  entity.Pizza -
+
+ code   nom       prix   categ 
+
+17:32:15.521 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a sélectionné 1 pour La liste !
+17:32:15.536 [main] INFO  entity.Menu -
+
+====================================
+17:32:15.536 [main] INFO  entity.Menu -
+
+******Pizzeria Administration******
+17:32:15.536 [main] INFO  entity.Menu -
+
+====================================
+17:32:15.536 [main] INFO  entity.Menu -
+
+1/ Lister les pizzas
+
+17:32:15.536 [main] INFO  entity.Menu -
+
+2/ Ajouter une nouvelle pizza
+
+17:32:15.536 [main] INFO  entity.Menu -
+
+3/ Misa a jour d'une pizza
+
+17:32:15.536 [main] INFO  entity.Menu -
+
+4/ Supression d'une pizza 
+
+17:32:15.536 [main] INFO  entity.Menu -
+
+99/ Sortir
+17:32:15.536 [main] INFO  entity.Menu -
+
+====> Entrer votre choix : 
+
