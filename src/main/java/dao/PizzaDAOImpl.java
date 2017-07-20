@@ -18,7 +18,6 @@ public class PizzaDAOImpl implements PizzaDAO{
 	private List<Pizza> listPizza;
 	
 
-
 	public PizzaDAOImpl (){
 		
 		listPizza = new ArrayList<>();
@@ -53,9 +52,7 @@ public class PizzaDAOImpl implements PizzaDAO{
 		for (Pizza pizza : listPizza) {
 			System.out.println(pizza);
 		}
-		
 		new AppService().executer("Client a sélectionné 1 pour La liste !");
-		
 	}
 	
 	
