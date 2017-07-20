@@ -1,7 +1,6 @@
 package dao;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 import org.slf4j.Logger;
@@ -43,7 +42,7 @@ public class PizzaDAOImpl implements PizzaDAO{
 	}
 	
 	
-	public List<Pizza> getTableauPizza(){
+	public List<Pizza> getListPizza() {
 		return listPizza;
 	}
 	

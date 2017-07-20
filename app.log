@@ -124,3 +124,425 @@ Index non trouvé
 
 ====> Entrer votre choix : 
 
+10:50:18.533 [main] INFO  entity.Menu -
+
+====================================
+10:50:18.533 [main] INFO  entity.Menu -
+
+******Pizzeria Administration******
+10:50:18.533 [main] INFO  entity.Menu -
+
+====================================
+10:50:18.533 [main] INFO  entity.Menu -
+
+1/ Lister les pizzas
+
+10:50:18.533 [main] INFO  entity.Menu -
+
+2/ Ajouter une nouvelle pizza
+
+10:50:18.533 [main] INFO  entity.Menu -
+
+3/ Misa a jour d'une pizza
+
+10:50:18.533 [main] INFO  entity.Menu -
+
+4/ Supression d'une pizza 
+
+10:50:18.533 [main] INFO  entity.Menu -
+
+99/ Sortir
+10:50:18.533 [main] INFO  entity.Menu -
+
+====> Entrer votre choix : 
+
+10:50:24.637 [main] INFO  entity.ListerPizzasOptionMenu -
+
+*******Les Pizzas*******
+
+10:50:24.646 [main] INFO  entity.Pizza -
+
+ code   nom       prix   categ 
+
+10:50:24.710 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a sélectionné 1 pour La liste !
+10:50:24.710 [main] INFO  entity.Menu -
+
+====================================
+10:50:24.710 [main] INFO  entity.Menu -
+
+******Pizzeria Administration******
+10:50:24.710 [main] INFO  entity.Menu -
+
+====================================
+10:50:24.710 [main] INFO  entity.Menu -
+
+1/ Lister les pizzas
+
+10:50:24.710 [main] INFO  entity.Menu -
+
+2/ Ajouter une nouvelle pizza
+
+10:50:24.710 [main] INFO  entity.Menu -
+
+3/ Misa a jour d'une pizza
+
+10:50:24.710 [main] INFO  entity.Menu -
+
+4/ Supression d'une pizza 
+
+10:50:24.725 [main] INFO  entity.Menu -
+
+99/ Sortir
+10:50:24.725 [main] INFO  entity.Menu -
+
+====> Entrer votre choix : 
+
+10:50:27.944 [main] INFO  entity.SupressionPizzaOptionMenu -
+
+*****Supression d'une pizza******
+10:50:27.950 [main] INFO  entity.SupressionPizzaOptionMenu -
+
+Entrer l'index: 
+10:50:29.186 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = 30
+10:50:29.186 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Index non trouvé
+10:50:29.186 [main] INFO  exception.GlobalException -
+
+Code d'erreur: 30
+10:50:29.186 [main] INFO  service.PizzaManage -
+
+Index non trouvé
+10:50:29.190 [main] INFO  entity.Menu -
+
+====================================
+10:50:29.190 [main] INFO  entity.Menu -
+
+******Pizzeria Administration******
+10:50:29.190 [main] INFO  entity.Menu -
+
+====================================
+10:50:29.190 [main] INFO  entity.Menu -
+
+1/ Lister les pizzas
+
+10:50:29.190 [main] INFO  entity.Menu -
+
+2/ Ajouter une nouvelle pizza
+
+10:50:29.190 [main] INFO  entity.Menu -
+
+3/ Misa a jour d'une pizza
+
+10:50:29.190 [main] INFO  entity.Menu -
+
+4/ Supression d'une pizza 
+
+10:50:29.190 [main] INFO  entity.Menu -
+
+99/ Sortir
+10:50:29.190 [main] INFO  entity.Menu -
+
+====> Entrer votre choix : 
+
+11:19:19.853 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a rajouté une pizza dans la liste !
+11:23:44.310 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a rajouté une pizza dans la liste !
+11:24:55.745 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a rajouté une pizza dans la liste !
+11:26:40.905 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a rajouté une pizza dans la liste !
+11:29:04.801 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a rajouté une pizza dans la liste !
+11:31:50.962 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a rajouté une pizza dans la liste !
+11:32:14.607 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a rajouté une pizza dans la liste !
+11:32:33.396 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a rajouté une pizza dans la liste !
+11:33:04.934 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a rajouté une pizza dans la liste !
+11:33:21.740 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a rajouté une pizza dans la liste !
+11:34:48.877 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a rajouté une pizza dans la liste !
+11:35:22.576 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a rajouté une pizza dans la liste !
+11:35:32.948 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a rajouté une pizza dans la liste !
+11:35:47.830 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a rajouté une pizza dans la liste !
+11:37:05.561 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a rajouté une pizza dans la liste !
+11:38:45.877 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a rajouté une pizza dans la liste !
+11:39:15.450 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a rajouté une pizza dans la liste !
+11:39:23.464 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a rajouté une pizza dans la liste !
+11:39:43.231 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a rajouté une pizza dans la liste !
+11:45:31.012 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a mise à jour la liste de pizzas ! nouvelle pizza est: 7 VN Vn 15.0 FROMAGE
+11:45:31.012 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a rajouté une pizza dans la liste !
+11:46:00.907 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a mise à jour la liste de pizzas ! nouvelle pizza est: 7 VN Vn 15.0 FROMAGE
+11:46:00.907 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a rajouté une pizza dans la liste !
+11:46:36.792 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a mise à jour la liste de pizzas ! nouvelle pizza est: 7 VN Vn 15.0 FROMAGE
+11:46:36.792 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a rajouté une pizza dans la liste !
+11:46:49.376 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a mise à jour la liste de pizzas ! nouvelle pizza est: 7 VN Vn 15.0 FROMAGE
+11:46:49.439 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a rajouté une pizza dans la liste !
+11:47:58.946 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a mise à jour la liste de pizzas ! nouvelle pizza est: 7 VN Vn 15.0 FROMAGE
+11:47:58.946 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a rajouté une pizza dans la liste !
+11:54:12.211 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a mise à jour la liste de pizzas ! nouvelle pizza est: 7 VN Vn 15.0 FROMAGE
+11:54:12.226 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a rajouté une pizza dans la liste !
+11:56:58.747 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a mise à jour la liste de pizzas ! nouvelle pizza est: 7 VN Vn 15.0 FROMAGE
+11:56:58.747 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a rajouté une pizza dans la liste !
+11:57:13.080 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a mise à jour la liste de pizzas ! nouvelle pizza est: 7 VN Vn 15.0 FROMAGE
+11:57:13.080 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a supprimé une pizza à l'index: 6 L'indienne
+11:57:13.080 [main] INFO  entity.Pizza -
+
+Supression OK !
+11:57:13.080 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a rajouté une pizza dans la liste !
+11:58:26.648 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a mise à jour la liste de pizzas ! nouvelle pizza est: 7 VN Vn 15.0 FROMAGE
+11:58:26.648 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a supprimé une pizza à l'index: 6 L'indienne
+11:58:26.648 [main] INFO  entity.Pizza -
+
+Supression OK !
+11:58:26.648 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a rajouté une pizza dans la liste !
+11:59:08.334 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a mise à jour la liste de pizzas ! nouvelle pizza est: 7 VN Vn 15.0 FROMAGE
+11:59:08.334 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a supprimé une pizza à l'index: 6 L'indienne
+11:59:08.334 [main] INFO  entity.Pizza -
+
+Supression OK !
+11:59:08.334 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a rajouté une pizza dans la liste !
+11:59:27.479 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a mise à jour la liste de pizzas ! nouvelle pizza est: 7 VN Vn 15.0 FROMAGE
+11:59:27.479 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a supprimé une pizza à l'index: 6 L'indienne
+11:59:27.479 [main] INFO  entity.Pizza -
+
+Supression OK !
+11:59:27.494 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a rajouté une pizza dans la liste !
+11:59:36.253 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a mise à jour la liste de pizzas ! nouvelle pizza est: 7 VN Vn 15.0 FROMAGE
+11:59:36.253 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a supprimé une pizza à l'index: 6 L'indienne
+11:59:36.253 [main] INFO  entity.Pizza -
+
+Supression OK !
+11:59:36.269 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a rajouté une pizza dans la liste !
+12:00:07.566 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a mise à jour la liste de pizzas ! nouvelle pizza est: 7 VN Vn 15.0 FROMAGE
+12:00:07.566 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a supprimé une pizza à l'index: 6 L'indienne
+12:00:07.566 [main] INFO  entity.Pizza -
+
+Supression OK !
+12:00:07.566 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a rajouté une pizza dans la liste !
+12:00:22.180 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a mise à jour la liste de pizzas ! nouvelle pizza est: 7 VN Vn 15.0 FROMAGE
+12:00:22.180 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a supprimé une pizza à l'index: 6 L'indienne
+12:00:22.180 [main] INFO  entity.Pizza -
+
+Supression OK !
+12:00:22.180 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a rajouté une pizza dans la liste !
+12:00:36.441 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a mise à jour la liste de pizzas ! nouvelle pizza est: 7 VN Vn 15.0 FROMAGE
+12:00:36.441 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a supprimé une pizza à l'index: 6 L'indienne
+12:00:36.441 [main] INFO  entity.Pizza -
+
+Supression OK !
+12:00:36.456 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a rajouté une pizza dans la liste !
+12:01:58.494 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a mise à jour la liste de pizzas ! nouvelle pizza est: 7 VN Vn 15.0 FROMAGE
+12:01:58.494 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a supprimé une pizza à l'index: 6 L'indienne
+12:01:58.494 [main] INFO  entity.Pizza -
+
+Supression OK !
+12:01:58.494 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a rajouté une pizza dans la liste !
+12:02:46.269 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a mise à jour la liste de pizzas ! nouvelle pizza est: 7 VN Vn 15.0 FROMAGE
+12:02:46.269 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a supprimé une pizza à l'index: 6 L'indienne
+12:02:46.269 [main] INFO  entity.Pizza -
+
+Supression OK !
+12:02:46.269 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a rajouté une pizza dans la liste !
+12:03:33.325 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a mise à jour la liste de pizzas ! nouvelle pizza est: 7 VN Vn 15.0 FROMAGE
+12:03:33.325 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a rajouté une pizza dans la liste !
+12:03:55.003 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a mise à jour la liste de pizzas ! nouvelle pizza est: 7 VN Vn 15.0 FROMAGE
+12:03:55.003 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a supprimé une pizza à l'index: 6 L'indienne
+12:03:55.003 [main] INFO  entity.Pizza -
+
+Supression OK !
+12:03:55.003 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a rajouté une pizza dans la liste !
+12:04:06.523 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a mise à jour la liste de pizzas ! nouvelle pizza est: 7 VN Vn 15.0 FROMAGE
+12:04:06.538 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a rajouté une pizza dans la liste !
+12:04:27.001 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a mise à jour la liste de pizzas ! nouvelle pizza est: 7 VN Vn 15.0 FROMAGE
+12:04:27.001 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = 30
+12:04:27.001 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Index non trouvé
+12:04:27.001 [main] INFO  exception.GlobalException -
+
+Code d'erreur: 30
+12:04:27.001 [main] INFO  test.TestApp -
+
+Index non trouvé
+12:04:27.017 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a rajouté une pizza dans la liste !
+12:06:05.633 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a mise à jour la liste de pizzas ! nouvelle pizza est: 7 VN Vn 15.0 FROMAGE
+12:06:05.633 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = 30
+12:06:05.633 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Index non trouvé
+12:06:05.633 [main] INFO  exception.GlobalException -
+
+Code d'erreur: 30
+12:06:05.633 [main] INFO  test.TestApp -
+
+Index non trouvé
+12:06:05.633 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a rajouté une pizza dans la liste !
+12:06:44.416 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a mise à jour la liste de pizzas ! nouvelle pizza est: 7 VN Vn 15.0 FROMAGE
+12:06:44.432 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a rajouté une pizza dans la liste !
+12:07:03.750 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a mise à jour la liste de pizzas ! nouvelle pizza est: 7 VN Vn 15.0 FROMAGE
+12:07:03.750 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a supprimé une pizza à l'index: 6 L'indienne
+12:07:03.750 [main] INFO  entity.Pizza -
+
+Supression OK !
+12:07:03.750 [main] DEBUG dev.service.AppService -
+
+Traitement 1 : param = Client a rajouté une pizza dans la liste !
