@@ -50,25 +50,27 @@ public static final Logger LOG = LoggerFactory.getLogger(PizzaDaoJdbcTest.class)
 		daoPizza = new PizzaDAOImpl();
 		
 		h2_Database = new Test_H2Database();
+		h2_Database.setupConnectionJdbc();
 		h2_Database.createTables();
 	}
 
 
 	@Test
-	public void testAddPizzaPizza() {
+	public void testAddPizzaPizza() throws SQLException {
 		pizzaDaoJdbc = new PizzaDaoJdbc();
 		pizzaDaoJdbc.addPizza("FR", "Fr_Pizza", 19, CategoriePizza.FROMAGE);
 		
 		
 		String codePizza = "";
-		try {
-			ResultSet rs = statement.getResultSet();
-			codePizza = rs.getString(2);
+		
+			ResultSet rs = statement.executeQuery("select * from Pizza");
 			
-		} catch (SQLException e) {
-			LOG.info(e.getMessage());
-			LOG.info(""+e.getStackTrace());
-		}
+			while(rs.next()){
+				codePizza = rs.getString(2);
+			}
+			
+			
+	
 		assertThat(codePizza).isEqualToIgnoringCase("FR");
 }
 }

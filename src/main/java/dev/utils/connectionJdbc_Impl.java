@@ -10,7 +10,7 @@ public class connectionJdbc_Impl implements connectionJdbc{
 	public Connection connecterJDBC() throws ClassNotFoundException, SQLException {
 			Connection con = null;
 			Class.forName("org.h2.Driver");	
-			con = DriverManager.getConnection("jdbc:h2:mem:test;DB_CLOSE_DELAY=-1","sa","");	
+			con = DriverManager.getConnection("jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1","sa","");	
 			return con;
 		
 	}

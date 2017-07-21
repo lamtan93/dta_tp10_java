@@ -28,14 +28,14 @@ public static final Logger LOG = LoggerFactory.getLogger(Test_H2Database.class);
 
 	@Override
 	public void addPizza(String code, String nom, double prix, CategoriePizza categoriePizza) {
-		String sql = "INSERT INTO Pizza VALUES (index, code, nom, pix, categorie) VALUES (?,?,?,?,?)";
+		String sql = "INSERT INTO Pizza (index, code, nom, prix, categorie) VALUES (?,?,?,?,?)";
 		
 		
 		try {
 			Connection con = null;
 			
 			Class.forName("org.h2.Driver");
-			con = DriverManager.getConnection("jdbc:h2:mem:testdb", "sa", "");
+			con = DriverManager.getConnection("jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1", "sa", "");
 			PreparedStatement preparedStatement = con.prepareStatement(sql);
 			
 			
@@ -43,7 +43,7 @@ public static final Logger LOG = LoggerFactory.getLogger(Test_H2Database.class);
 			preparedStatement.setString(2, code);
 			preparedStatement.setString(3, nom);
 			preparedStatement.setDouble(4, prix);
-			preparedStatement.setObject(5, categoriePizza);
+			preparedStatement.setObject(5, categoriePizza.getLibelle());
 
 			int nbr = preparedStatement.executeUpdate();
 			LOG.info(""+nbr);
