@@ -1766,3 +1766,493 @@ Traitement 1 : param = Client a sélectionné 1 pour La liste !
 
 ====> Entrer votre choix : 
 
+12:28:40.745 [main] INFO  test.Test_H2Database -
+
+Syntax error in SQL statement "CREATE TABLE PIZZAINDEX INTCODE[*] VARCHAR (3)NOM VARCHAR (100)PRIX DOUBLE CATEGORIE VARCHAR (10) "; SQL statement:
+CREATE TABLE Pizzaindex INTcode VARCHAR (3)nom VARCHAR (100)prix DOUBLE categorie VARCHAR (10) [42000-196]
+12:28:40.745 [main] INFO  test.Test_H2Database -
+
+Table "PIZZA" not found; SQL statement:
+INSERT INTO Pizza (index, code, nom, prix, ) VALUES (?, ?, ?, ?, ?) [42102-196]
+12:28:40.760 [main] INFO  test.Test_H2Database -
+
+Table "PIZZA" not found; SQL statement:
+Select * from Pizza [42102-196]
+12:30:00.673 [main] INFO  test.Test_H2Database -
+
+Syntax error in SQL statement "CREATE TABLE PIZZA INDEX[*] INT CODE VARCHAR (3) NOM VARCHAR (100) PRIX DOUBLE CATEGORIE VARCHAR (10) "; SQL statement:
+CREATE TABLE Pizza index INT code VARCHAR (3) nom VARCHAR (100) prix DOUBLE categorie VARCHAR (10) [42000-196]
+12:30:00.673 [main] INFO  test.Test_H2Database -
+
+Table "PIZZA" not found; SQL statement:
+INSERT INTO Pizza (index, code, nom, prix, ) VALUES (?, ?, ?, ?, ?) [42102-196]
+12:30:00.673 [main] INFO  test.Test_H2Database -
+
+Table "PIZZA" not found; SQL statement:
+Select * from Pizza [42102-196]
+12:31:46.228 [main] INFO  test.Test_H2Database -
+
+Syntax error in SQL statement "CREATE TABLE PIZZA INDEX[*] INT (3)CODE VARCHAR (3) NOM VARCHAR (100) PRIX DOUBLE CATEGORIE VARCHAR (10) "; SQL statement:
+CREATE TABLE Pizza index INT (3)code VARCHAR (3) nom VARCHAR (100) prix DOUBLE categorie VARCHAR (10) [42000-196]
+12:31:46.228 [main] INFO  test.Test_H2Database -
+
+Table "PIZZA" not found; SQL statement:
+INSERT INTO Pizza (index, code, nom, prix, ) VALUES (?, ?, ?, ?, ?) [42102-196]
+12:31:46.228 [main] INFO  test.Test_H2Database -
+
+Table "PIZZA" not found; SQL statement:
+Select * from Pizza [42102-196]
+12:33:21.492 [main] INFO  test.Test_H2Database -
+
+Syntax error in SQL statement "CREATE TABLE PIZZA INDEX[*] NUMBER (3)CODE VARCHAR (3) NOM VARCHAR (100) PRIX DOUBLE CATEGORIE VARCHAR (10) "; SQL statement:
+CREATE TABLE Pizza index NUMBER (3)code VARCHAR (3) nom VARCHAR (100) prix DOUBLE categorie VARCHAR (10) [42000-196]
+12:33:21.496 [main] INFO  test.Test_H2Database -
+
+Table "PIZZA" not found; SQL statement:
+INSERT INTO Pizza (index, code, nom, prix, ) VALUES (?, ?, ?, ?, ?) [42102-196]
+12:33:21.500 [main] INFO  test.Test_H2Database -
+
+Table "PIZZA" not found; SQL statement:
+Select * from Pizza [42102-196]
+13:04:41.491 [main] INFO  test.Test_H2Database -
+
+Syntax error in SQL statement "CREATE TABLE PIZZA INDEX[*] NUMBER (3)CODE VARCHAR (3) NOM VARCHAR (100) PRIX DOUBLE CATEGORIE VARCHAR (10) "; SQL statement:
+CREATE TABLE Pizza index NUMBER (3)code VARCHAR (3) nom VARCHAR (100) prix DOUBLE categorie VARCHAR (10) [42000-196]
+13:04:41.491 [main] INFO  test.Test_H2Database -
+
+Table "PIZZA" not found; SQL statement:
+INSERT INTO Pizza (index, code, nom, prix, ) VALUES (?, ?, ?, ?, ?) [42102-196]
+13:04:41.491 [main] INFO  test.Test_H2Database -
+
+Table "PIZZA" not found; SQL statement:
+Select * from Pizza [42102-196]
+13:05:10.533 [main] INFO  test.Test_H2Database -
+
+Syntax error in SQL statement "CREATE TABLE PIZZA INDEX[*] NUMBER (3)CODE VARCHAR (3) NOM VARCHAR (100) PRIX DOUBLE CATEGORIE VARCHAR (10) "; SQL statement:
+CREATE TABLE Pizza index NUMBER (3)code VARCHAR (3) nom VARCHAR (100) prix DOUBLE categorie VARCHAR (10) [42000-196]
+13:05:10.549 [main] INFO  test.Test_H2Database -
+
+Table "PIZZA" not found; SQL statement:
+Select * from Pizza [42102-196]
+13:05:45.561 [main] INFO  test.Test_H2Database -
+
+Syntax error in SQL statement "CREATE TABLE PIZZA INDEX[*] INT CODE VARCHAR (3) NOM VARCHAR (100) PRIX DOUBLE CATEGORIE VARCHAR (10) "; SQL statement:
+CREATE TABLE Pizza index int code VARCHAR (3) nom VARCHAR (100) prix DOUBLE categorie VARCHAR (10) [42000-196]
+13:05:45.577 [main] INFO  test.Test_H2Database -
+
+Table "PIZZA" not found; SQL statement:
+Select * from Pizza [42102-196]
+13:06:03.774 [main] INFO  test.Test_H2Database -
+
+Syntax error in SQL statement "CREATE TABLE PIZZA INDEX[*] INT CODE VARCHAR (3) NOM VARCHAR (100) PRIX DOUBLE CATEGORIE VARCHAR (10) "; SQL statement:
+CREATE TABLE Pizza index INT code VARCHAR (3) nom VARCHAR (100) prix DOUBLE categorie VARCHAR (10) [42000-196]
+13:06:03.774 [main] INFO  test.Test_H2Database -
+
+Table "PIZZA" not found; SQL statement:
+Select * from Pizza [42102-196]
+13:07:43.880 [main] INFO  test.Test_H2Database -
+
+Syntax error in SQL statement "CREATE TABLE PIZZA(INDEX INT CODE[*] VARCHAR (3) NOM VARCHAR (100) PRIX DOUBLE CATEGORIE VARCHAR (10)) "; expected "(, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE Pizza(index INT code VARCHAR (3) nom VARCHAR (100) prix DOUBLE categorie VARCHAR (10)) [42001-196]
+13:07:43.884 [main] INFO  test.Test_H2Database -
+
+Table "PIZZA" not found; SQL statement:
+Select * from Pizza [42102-196]
+13:10:15.494 [main] INFO  test.Test_H2Database -
+
+Syntax error in SQL statement "CREATE TABLE PIZZA (INDEX INT CODE[*] VARCHAR (3) NOM VARCHAR (100) PRIX DOUBLE CATEGORIE VARCHAR (10) ); "; expected "(, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE Pizza (index INT code VARCHAR (3) nom VARCHAR (100) prix DOUBLE categorie VARCHAR (10) ); [42001-196]
+13:10:15.509 [main] INFO  test.Test_H2Database -
+
+Table "PIZZA" not found; SQL statement:
+Select * from Pizza [42102-196]
+13:11:02.861 [main] INFO  test.Test_H2Database -
+
+Syntax error in SQL statement "CREATE TABLE PIZZA (INDEX INT CODE[*] VARCHAR (3) NULL NOM VARCHAR (100) NULL PRIX DOUBLE NULL CATEGORIE VARCHAR (10) ) NULL "; expected "(, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE Pizza (index INT code VARCHAR (3) NULL nom VARCHAR (100) NULL prix DOUBLE NULL categorie VARCHAR (10) ) NULL [42001-196]
+13:11:02.876 [main] INFO  test.Test_H2Database -
+
+Table "PIZZA" not found; SQL statement:
+Select * from Pizza [42102-196]
+13:11:37.255 [main] INFO  test.Test_H2Database -
+
+Syntax error in SQL statement "CREATE TABLE PIZZA (INDEX INT, CODE VARCHAR (3) NULL, NOM VARCHAR (100) NULL, PRIX DOUBLE NULL, CATEGORIE VARCHAR (10) ) NULL[*] "; SQL statement:
+CREATE TABLE Pizza (index INT, code VARCHAR (3) NULL, nom VARCHAR (100) NULL, prix DOUBLE NULL, categorie VARCHAR (10) ) NULL [42000-196]
+13:11:37.255 [main] INFO  test.Test_H2Database -
+
+Table "PIZZA" not found; SQL statement:
+Select * from Pizza [42102-196]
+13:52:15.421 [main] INFO  test.Test_H2Database -
+
+PEP
+13:53:50.519 [main] INFO  test.Test_H2Database -
+
+PEP
+13:55:27.512 [main] INFO  test.Test_H2Database -
+
+PEP
+13:55:27.512 [main] INFO  test.Test_H2Database -
+
+MAR
+13:55:37.214 [main] INFO  test.Test_H2Database -
+
+PEP
+13:55:37.214 [main] INFO  test.Test_H2Database -
+
+MAR
+13:59:58.771 [main] INFO  test.Test_H2Database -
+
+Syntax error in SQL statement "INSERT INTO Pizza VALUES (1,'PEP','Peperoni', '12.50', 'Viande'),(2,'MAR','Margherita', '14.00', 'Viande'),(3,'REI','La Reine', '11.50', 'Viande'),(4,'PEP','La Cannibale', '12.50', 'Viande'),(5,'CAN','La Cannibale', '12.50', 'Viande'),(6,'SAV','Savoyarde', '13.00', 'Viande'),(7,'PEP','Peperoni', '12.50', 'Fromage'),(8,'IND','L'indienne', '14.00', 'Vegetarien[*]')"; SQL statement:
+INSERT INTO Pizza VALUES (1,'PEP','Peperoni', '12.50', 'Viande'),(2,'MAR','Margherita', '14.00', 'Viande'),(3,'REI','La Reine', '11.50', 'Viande'),(4,'PEP','La Cannibale', '12.50', 'Viande'),(5,'CAN','La Cannibale', '12.50', 'Viande'),(6,'SAV','Savoyarde', '13.00', 'Viande'),(7,'PEP','Peperoni', '12.50', 'Fromage'),(8,'IND','L'indienne', '14.00', 'Vegetarien') [42000-196]
+14:00:23.949 [main] INFO  test.Test_H2Database -
+
+Syntax error in SQL statement "INSERT INTO Pizza VALUES (1,'PEP','Peperoni', '12.50', 'Viande'),(2,'MAR','Margherita', '14.00', 'Viande'),(3,'REI','La Reine', '11.50', 'Viande'),(4,'PEP','La Cannibale', '12.50', 'Viande'),(5,'CAN','La Cannibale', '12.50', 'Viande'),(6,'SAV','Savoyarde', '13.00', 'Viande'),(7,'PEP','Peperoni', '12.50', 'Fromage'),(8,'IND','L'indienne', '14.00', 'Vegetarien[*]'),"; SQL statement:
+INSERT INTO Pizza VALUES (1,'PEP','Peperoni', '12.50', 'Viande'),(2,'MAR','Margherita', '14.00', 'Viande'),(3,'REI','La Reine', '11.50', 'Viande'),(4,'PEP','La Cannibale', '12.50', 'Viande'),(5,'CAN','La Cannibale', '12.50', 'Viande'),(6,'SAV','Savoyarde', '13.00', 'Viande'),(7,'PEP','Peperoni', '12.50', 'Fromage'),(8,'IND','L'indienne', '14.00', 'Vegetarien'), [42000-196]
+14:00:49.272 [main] INFO  test.Test_H2Database -
+
+Syntax error in SQL statement "INSERT INTO Pizza VALUES (1,'PEP','Peperoni', '12.50', 'Viande'),(2,'MAR','Margherita', '14.00', 'Viande'),(3,'REI','La Reine', '11.50', 'Viande'),(4,'PEP','La Cannibale', '12.50', 'Viande'),(5,'CAN','La Cannibale', '12.50', 'Viande'),(6,'SAV','Savoyarde', '13.00', 'Viande'),(7,'PEP','Peperoni', '12.50', 'Fromage'),(8,'IND','L'indienne', '14.00', 'Vegetarien[*]'),"; SQL statement:
+INSERT INTO Pizza VALUES (1,'PEP','Peperoni', '12.50', 'Viande'),(2,'MAR','Margherita', '14.00', 'Viande'),(3,'REI','La Reine', '11.50', 'Viande'),(4,'PEP','La Cannibale', '12.50', 'Viande'),(5,'CAN','La Cannibale', '12.50', 'Viande'),(6,'SAV','Savoyarde', '13.00', 'Viande'),(7,'PEP','Peperoni', '12.50', 'Fromage'),(8,'IND','L'indienne', '14.00', 'Vegetarien'), [42000-196]
+14:01:03.921 [main] INFO  test.Test_H2Database -
+
+Syntax error in SQL statement "INSERT INTO Pizza VALUES (1,'PEP','Peperoni', '12.50', 'Viande'),(2,'MAR','Margherita', '14.00', 'Viande'),(3,'REI','La Reine', '11.50', 'Viande'),(4,'PEP','La Cannibale', '12.50', 'Viande'),(5,'CAN','La Cannibale', '12.50', 'Viande'),(6,'SAV','Savoyarde', '13.00', 'Viande'),(7,'PEP','Peperoni', '12.50', 'Fromage'),(8,'IND','L'indienne', '14.00', 'Vegetarien[*]')"; SQL statement:
+INSERT INTO Pizza VALUES (1,'PEP','Peperoni', '12.50', 'Viande'),(2,'MAR','Margherita', '14.00', 'Viande'),(3,'REI','La Reine', '11.50', 'Viande'),(4,'PEP','La Cannibale', '12.50', 'Viande'),(5,'CAN','La Cannibale', '12.50', 'Viande'),(6,'SAV','Savoyarde', '13.00', 'Viande'),(7,'PEP','Peperoni', '12.50', 'Fromage'),(8,'IND','L'indienne', '14.00', 'Vegetarien') [42000-196]
+14:02:33.199 [main] INFO  test.Test_H2Database -
+
+PEP
+14:02:33.215 [main] INFO  test.Test_H2Database -
+
+MAR
+14:02:50.549 [main] INFO  test.Test_H2Database -
+
+PEP
+14:02:50.549 [main] INFO  test.Test_H2Database -
+
+MAR
+14:02:50.549 [main] INFO  test.Test_H2Database -
+
+REI
+14:03:08.285 [main] INFO  test.Test_H2Database -
+
+PEP
+14:03:08.285 [main] INFO  test.Test_H2Database -
+
+MAR
+14:03:08.285 [main] INFO  test.Test_H2Database -
+
+REI
+14:03:08.285 [main] INFO  test.Test_H2Database -
+
+PEP
+14:03:31.406 [main] INFO  test.Test_H2Database -
+
+PEP
+14:03:31.406 [main] INFO  test.Test_H2Database -
+
+MAR
+14:03:31.406 [main] INFO  test.Test_H2Database -
+
+REI
+14:03:31.406 [main] INFO  test.Test_H2Database -
+
+PEP
+14:03:31.406 [main] INFO  test.Test_H2Database -
+
+CAN
+14:03:31.406 [main] INFO  test.Test_H2Database -
+
+SAV
+14:03:31.406 [main] INFO  test.Test_H2Database -
+
+PEP
+14:03:53.524 [main] INFO  test.Test_H2Database -
+
+Syntax error in SQL statement "INSERT INTO Pizza VALUES (1,'PEP','Peperoni', '12.50', 'Viande'),(2,'MAR','Margherita', '14.00', 'Viande'),(3,'REI','La Reine', '11.50', 'Viande'),(4,'PEP','La Cannibale', '12.50', 'Viande'),(5,'CAN','La Cannibale', '12.50', 'Viande'),(6,'SAV','Savoyarde', '13.00', 'Viande'),(7,'PEP','Peperoni', '12.50', 'Fromage'),(8,'IND','L'indienne', '14.00', 'Vegetarien[*]')"; SQL statement:
+INSERT INTO Pizza VALUES (1,'PEP','Peperoni', '12.50', 'Viande'),(2,'MAR','Margherita', '14.00', 'Viande'),(3,'REI','La Reine', '11.50', 'Viande'),(4,'PEP','La Cannibale', '12.50', 'Viande'),(5,'CAN','La Cannibale', '12.50', 'Viande'),(6,'SAV','Savoyarde', '13.00', 'Viande'),(7,'PEP','Peperoni', '12.50', 'Fromage'),(8,'IND','L'indienne', '14.00', 'Vegetarien') [42000-196]
+14:04:03.448 [main] INFO  test.Test_H2Database -
+
+Syntax error in SQL statement "INSERT INTO Pizza VALUES (1,'PEP','Peperoni', '12.50', 'Viande'),(2,'MAR','Margherita', '14.00', 'Viande'),(3,'REI','La Reine', '11.50', 'Viande'),(4,'PEP','La Cannibale', '12.50', 'Viande'),(5,'CAN','La Cannibale', '12.50', 'Viande'),(6,'SAV','Savoyarde', '13.00', 'Viande'),(7,'PEP','Peperoni', '12.50', 'Fromage'),(8,'IND','L'indienne', '14.00', 'Vegetarien[*]'),"; SQL statement:
+INSERT INTO Pizza VALUES (1,'PEP','Peperoni', '12.50', 'Viande'),(2,'MAR','Margherita', '14.00', 'Viande'),(3,'REI','La Reine', '11.50', 'Viande'),(4,'PEP','La Cannibale', '12.50', 'Viande'),(5,'CAN','La Cannibale', '12.50', 'Viande'),(6,'SAV','Savoyarde', '13.00', 'Viande'),(7,'PEP','Peperoni', '12.50', 'Fromage'),(8,'IND','L'indienne', '14.00', 'Vegetarien'), [42000-196]
+14:04:17.426 [main] INFO  test.Test_H2Database -
+
+PEP
+14:04:17.426 [main] INFO  test.Test_H2Database -
+
+MAR
+14:04:17.426 [main] INFO  test.Test_H2Database -
+
+REI
+14:04:17.426 [main] INFO  test.Test_H2Database -
+
+PEP
+14:04:17.426 [main] INFO  test.Test_H2Database -
+
+CAN
+14:04:17.426 [main] INFO  test.Test_H2Database -
+
+SAV
+14:04:17.426 [main] INFO  test.Test_H2Database -
+
+PEP
+14:05:25.353 [main] INFO  test.Test_H2Database -
+
+Syntax error in SQL statement "INSERT INTO Pizza VALUES (1,'PEP','Peperoni', '12.50', 'Viande'),(2,'MAR','Margherita', '14.00', 'Viande'),(3,'REI','La Reine', '11.50', 'Viande'),(4,'PEP','La Cannibale', '12.50', 'Viande'),(5,'CAN','La Cannibale', '12.50', 'Viande'),(6,'SAV','Savoyarde', '13.00', 'Viande'),(7,'PEP','Peperoni', '12.50', 'Fromage'),(8,'IND','L'indienne', '14.00', 'Vegetarien[*]')"; SQL statement:
+INSERT INTO Pizza VALUES (1,'PEP','Peperoni', '12.50', 'Viande'),(2,'MAR','Margherita', '14.00', 'Viande'),(3,'REI','La Reine', '11.50', 'Viande'),(4,'PEP','La Cannibale', '12.50', 'Viande'),(5,'CAN','La Cannibale', '12.50', 'Viande'),(6,'SAV','Savoyarde', '13.00', 'Viande'),(7,'PEP','Peperoni', '12.50', 'Fromage'),(8,'IND','L'indienne', '14.00', 'Vegetarien') [42000-196]
+14:05:34.711 [main] INFO  test.Test_H2Database -
+
+PEP
+14:05:34.711 [main] INFO  test.Test_H2Database -
+
+MAR
+14:05:34.711 [main] INFO  test.Test_H2Database -
+
+REI
+14:05:34.711 [main] INFO  test.Test_H2Database -
+
+PEP
+14:05:34.711 [main] INFO  test.Test_H2Database -
+
+CAN
+14:05:34.711 [main] INFO  test.Test_H2Database -
+
+SAV
+14:05:34.711 [main] INFO  test.Test_H2Database -
+
+PEP
+14:06:28.197 [main] INFO  test.Test_H2Database -
+
+Syntax error in SQL statement "INSERT INTO Pizza VALUES (1,'PEP','Peperoni', '12.50', 'Viande'),(2,'MAR','Margherita', '14.00', 'Viande'),(3,'REI','La Reine', '11.50', 'Viande'),(4,'PEP','La Cannibale', '12.50', 'Viande'),(5,'CAN','La Cannibale', '12.50', 'Viande'),(6,'SAV','Savoyarde', '13.00', 'Viande'),(7,'PEP','Peperoni', '12.50', 'Fromage'),(8,'IND','L'indienne', '14.00', 'Viande[*]'),"; SQL statement:
+INSERT INTO Pizza VALUES (1,'PEP','Peperoni', '12.50', 'Viande'),(2,'MAR','Margherita', '14.00', 'Viande'),(3,'REI','La Reine', '11.50', 'Viande'),(4,'PEP','La Cannibale', '12.50', 'Viande'),(5,'CAN','La Cannibale', '12.50', 'Viande'),(6,'SAV','Savoyarde', '13.00', 'Viande'),(7,'PEP','Peperoni', '12.50', 'Fromage'),(8,'IND','L'indienne', '14.00', 'Viande'), [42000-196]
+14:07:20.093 [main] INFO  test.Test_H2Database -
+
+Syntax error in SQL statement "INSERT INTO Pizza VALUES (1,'PEP','Peperoni', '12.50', 'Viande'),(2,'MAR','Margherita', '14.00', 'Viande'),(3,'REI','La Reine', '11.50', 'Viande'),(4,'PEP','La Cannibale', '12.50', 'Viande'),(5,'CAN','La Cannibale', '12.50', 'Viande'),(6,'SAV','Savoyarde', '13.00', 'Viande'),(7,'PEP','Peperoni', '12.50', 'Fromage'),(8,'IND','L'indienne', '14.00', 'Viande[*]')"; SQL statement:
+INSERT INTO Pizza VALUES (1,'PEP','Peperoni', '12.50', 'Viande'),(2,'MAR','Margherita', '14.00', 'Viande'),(3,'REI','La Reine', '11.50', 'Viande'),(4,'PEP','La Cannibale', '12.50', 'Viande'),(5,'CAN','La Cannibale', '12.50', 'Viande'),(6,'SAV','Savoyarde', '13.00', 'Viande'),(7,'PEP','Peperoni', '12.50', 'Fromage'),(8,'IND','L'indienne', '14.00', 'Viande') [42000-196]
+14:07:29.194 [main] INFO  test.Test_H2Database -
+
+Syntax error in SQL statement "INSERT INTO Pizza VALUES (1,'PEP','Peperoni', '12.50', 'Viande'),(2,'MAR','Margherita', '14.00', 'Viande'),(3,'REI','La Reine', '11.50', 'Viande'),(4,'PEP','La Cannibale', '12.50', 'Viande'),(5,'CAN','La Cannibale', '12.50', 'Viande'),(6,'SAV','Savoyarde', '13.00', 'Viande'),(7,'PEP','Peperoni', '12.50', 'Fromage'),(8,'IND','L'indienne', '14.00', 'Viande[*]'),"; SQL statement:
+INSERT INTO Pizza VALUES (1,'PEP','Peperoni', '12.50', 'Viande'),(2,'MAR','Margherita', '14.00', 'Viande'),(3,'REI','La Reine', '11.50', 'Viande'),(4,'PEP','La Cannibale', '12.50', 'Viande'),(5,'CAN','La Cannibale', '12.50', 'Viande'),(6,'SAV','Savoyarde', '13.00', 'Viande'),(7,'PEP','Peperoni', '12.50', 'Fromage'),(8,'IND','L'indienne', '14.00', 'Viande'), [42000-196]
+14:07:38.434 [main] INFO  test.Test_H2Database -
+
+PEP
+14:07:38.450 [main] INFO  test.Test_H2Database -
+
+MAR
+14:07:38.450 [main] INFO  test.Test_H2Database -
+
+REI
+14:07:38.450 [main] INFO  test.Test_H2Database -
+
+PEP
+14:07:38.450 [main] INFO  test.Test_H2Database -
+
+CAN
+14:07:38.450 [main] INFO  test.Test_H2Database -
+
+SAV
+14:07:38.450 [main] INFO  test.Test_H2Database -
+
+PEP
+14:08:16.982 [main] INFO  test.Test_H2Database -
+
+Syntax error in SQL statement "INSERT INTO Pizza VALUES (1,'PEP','Peperoni', '12.50', 'Viande'),(2,'MAR','Margherita', '14.00', 'Viande'),(3,'REI','La Reine', '11.50', 'Viande'),(4,'PEP','La Cannibale', '12.50', 'Viande'),(5,'CAN','La Cannibale', '12.50', 'Viande'),(6,'SAV','Savoyarde', '13.00', 'Viande'),(7,'ORI','L'orientale', '13.50', 'Viande[*]'),"; SQL statement:
+INSERT INTO Pizza VALUES (1,'PEP','Peperoni', '12.50', 'Viande'),(2,'MAR','Margherita', '14.00', 'Viande'),(3,'REI','La Reine', '11.50', 'Viande'),(4,'PEP','La Cannibale', '12.50', 'Viande'),(5,'CAN','La Cannibale', '12.50', 'Viande'),(6,'SAV','Savoyarde', '13.00', 'Viande'),(7,'ORI','L'orientale', '13.50', 'Viande'), [42000-196]
+14:08:42.317 [main] INFO  test.Test_H2Database -
+
+Syntax error in SQL statement "INSERT INTO Pizza VALUES (1,'PEP','Peperoni', '12.50', 'Viande'),(2,'MAR','Margherita', '14.00', 'Viande'),(3,'REI','La Reine', '11.50', 'Viande'),(4,'PEP','La Cannibale', '12.50', 'Viande'),(5,'CAN','La Cannibale', '12.50', 'Viande'),(6,'SAV','Savoyarde', '13.00', 'Viande'),(7,'ORI','L'orientale', '13.50', 'Fromage[*]')"; SQL statement:
+INSERT INTO Pizza VALUES (1,'PEP','Peperoni', '12.50', 'Viande'),(2,'MAR','Margherita', '14.00', 'Viande'),(3,'REI','La Reine', '11.50', 'Viande'),(4,'PEP','La Cannibale', '12.50', 'Viande'),(5,'CAN','La Cannibale', '12.50', 'Viande'),(6,'SAV','Savoyarde', '13.00', 'Viande'),(7,'ORI','L'orientale', '13.50', 'Fromage') [42000-196]
+14:08:55.059 [main] INFO  test.Test_H2Database -
+
+PEP
+14:08:55.059 [main] INFO  test.Test_H2Database -
+
+MAR
+14:08:55.059 [main] INFO  test.Test_H2Database -
+
+REI
+14:08:55.059 [main] INFO  test.Test_H2Database -
+
+PEP
+14:08:55.059 [main] INFO  test.Test_H2Database -
+
+CAN
+14:08:55.059 [main] INFO  test.Test_H2Database -
+
+SAV
+14:09:56.966 [main] INFO  test.Test_H2Database -
+
+nbr: 
+14:09:56.982 [main] INFO  test.Test_H2Database -
+
+PEP
+14:09:56.982 [main] INFO  test.Test_H2Database -
+
+MAR
+14:09:56.982 [main] INFO  test.Test_H2Database -
+
+REI
+14:09:56.982 [main] INFO  test.Test_H2Database -
+
+PEP
+14:09:56.982 [main] INFO  test.Test_H2Database -
+
+CAN
+14:09:56.982 [main] INFO  test.Test_H2Database -
+
+SAV
+14:12:28.023 [main] INFO  test.Test_H2Database -
+
+nbr: 
+14:12:38.706 [main] INFO  test.Test_H2Database -
+
+nbr: 
+14:12:38.722 [main] INFO  test.Test_H2Database -
+
+PEP
+14:12:38.722 [main] INFO  test.Test_H2Database -
+
+MAR
+14:12:38.722 [main] INFO  test.Test_H2Database -
+
+REI
+14:12:38.722 [main] INFO  test.Test_H2Database -
+
+PEP
+14:12:38.722 [main] INFO  test.Test_H2Database -
+
+CAN
+14:12:38.722 [main] INFO  test.Test_H2Database -
+
+SAV
+14:21:57.016 [main] INFO  test.Test_H2Database -
+
+nbr: 
+14:21:57.016 [main] INFO  test.Test_H2Database -
+
+Syntax error in SQL statement "INSERT INTO PIZZA VALUES (INDEX, CODE, NOM, PIX, CATEGORIE) VALUES[*] (?,?,?,?,?) "; SQL statement:
+INSERT INTO Pizza VALUES (index, code, nom, pix, categorie) VALUES (?,?,?,?,?) [42000-196]
+14:21:57.016 [main] INFO  test.Test_H2Database -
+
+Table "PIZZA" already exists; SQL statement:
+CREATE TABLE Pizza (index INT, code VARCHAR (3) NULL, nom VARCHAR (100) NULL, prix DOUBLE NULL, categorie VARCHAR (10) NULL ) [42101-196]
+14:21:57.016 [main] INFO  test.Test_H2Database -
+
+nbr: 
+14:21:57.032 [main] INFO  test.Test_H2Database -
+
+PEP
+14:21:57.032 [main] INFO  test.Test_H2Database -
+
+MAR
+14:21:57.032 [main] INFO  test.Test_H2Database -
+
+REI
+14:21:57.032 [main] INFO  test.Test_H2Database -
+
+PEP
+14:21:57.032 [main] INFO  test.Test_H2Database -
+
+CAN
+14:21:57.032 [main] INFO  test.Test_H2Database -
+
+SAV
+14:21:57.032 [main] INFO  test.Test_H2Database -
+
+PEP
+14:21:57.032 [main] INFO  test.Test_H2Database -
+
+MAR
+14:21:57.032 [main] INFO  test.Test_H2Database -
+
+REI
+14:21:57.032 [main] INFO  test.Test_H2Database -
+
+PEP
+14:21:57.032 [main] INFO  test.Test_H2Database -
+
+CAN
+14:21:57.032 [main] INFO  test.Test_H2Database -
+
+SAV
+15:17:49.456 [main] INFO  test.Test_H2Database -
+
+nbr: 
+15:17:49.472 [main] INFO  test.Test_H2Database -
+
+PEP
+15:17:49.472 [main] INFO  test.Test_H2Database -
+
+MAR
+15:17:49.472 [main] INFO  test.Test_H2Database -
+
+REI
+15:17:49.472 [main] INFO  test.Test_H2Database -
+
+PEP
+15:17:49.472 [main] INFO  test.Test_H2Database -
+
+CAN
+15:17:49.472 [main] INFO  test.Test_H2Database -
+
+SAV
+16:55:49.283 [main] INFO  test.Test_H2Database -
+
+nbr: 
+16:55:49.299 [main] INFO  test.Test_H2Database -
+
+PEP
+16:55:49.299 [main] INFO  test.Test_H2Database -
+
+MAR
+16:55:49.299 [main] INFO  test.Test_H2Database -
+
+REI
+16:55:49.299 [main] INFO  test.Test_H2Database -
+
+PEP
+16:55:49.299 [main] INFO  test.Test_H2Database -
+
+CAN
+16:55:49.299 [main] INFO  test.Test_H2Database -
+
+SAV
+17:10:51.177 [main] INFO  test.Test_H2Database -
+
+nbr: 
+17:10:51.193 [main] INFO  test.Test_H2Database -
+
+PEP
+17:10:51.193 [main] INFO  test.Test_H2Database -
+
+MAR
+17:10:51.193 [main] INFO  test.Test_H2Database -
+
+REI
+17:10:51.193 [main] INFO  test.Test_H2Database -
+
+PEP
+17:10:51.193 [main] INFO  test.Test_H2Database -
+
+CAN
+17:10:51.193 [main] INFO  test.Test_H2Database -
+
+SAV
+17:17:38.955 [main] INFO  test.Test_H2Database -
+
+nbr: 
+17:17:38.970 [main] INFO  test.Test_H2Database -
+
+PEP
+17:17:38.970 [main] INFO  test.Test_H2Database -
+
+MAR
+17:17:38.970 [main] INFO  test.Test_H2Database -
+
+REI
+17:17:38.970 [main] INFO  test.Test_H2Database -
+
+PEP
+17:17:38.970 [main] INFO  test.Test_H2Database -
+
+CAN
+17:17:38.970 [main] INFO  test.Test_H2Database -
+
+SAV

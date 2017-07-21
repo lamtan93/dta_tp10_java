@@ -14,6 +14,7 @@ import exception.DeletePizzaException;
 public class PizzaDAOImpl implements PizzaDAO{
 
 	private static final Logger LOG = LoggerFactory.getLogger(Pizza.class);
+	
 
 	private List<Pizza> listPizza;
 	
@@ -111,4 +112,6 @@ public class PizzaDAOImpl implements PizzaDAO{
 		
 		
 	}
+
+
 }

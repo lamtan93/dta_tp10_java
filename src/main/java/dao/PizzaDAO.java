@@ -15,4 +15,5 @@ public interface PizzaDAO {
 	public void updatePizza(int index ,String code, String nom, double prix, CategoriePizza categoriePizza);
 	
 	public void deletePizza(int indexPizza)throws DeletePizzaException;
+	
 }

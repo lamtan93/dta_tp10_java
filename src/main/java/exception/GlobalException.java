@@ -3,7 +3,7 @@ package exception;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class GlobalException extends Exception{
+public class GlobalException extends RuntimeException{
 
 	private static final Logger LOG = LoggerFactory.getLogger(GlobalException.class);
 	
@@ -15,5 +15,17 @@ public class GlobalException extends Exception{
 		LOG.info("Code d'erreur: " + codeErreur);
 		
 	}
+
+	public GlobalException(String message, Throwable cause) {
+		super(message, cause);
+		
+	}
+
+	public GlobalException(Throwable cause) {
+		super(cause);
+		
+	}
+	
+	
 	
 }

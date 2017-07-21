@@ -11,5 +11,19 @@ public class SavePizzaException extends GlobalException{
 		super(errMess, typeError);		
 	}
 
+
+
+	public SavePizzaException(String message, Throwable cause) {
+		super(message, cause);
+		
+	}
+
+
+
+	public SavePizzaException(Throwable cause) {
+		super(cause);
+		
+	}
+
 	
 }
