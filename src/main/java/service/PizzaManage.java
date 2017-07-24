@@ -4,7 +4,7 @@ package service;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import dao.PizzaDAOImpl;
+import dao.PizzaDAO;
 import entity.CategoriePizza;
 import entity.Pizza;
 import exception.DeletePizzaException;
@@ -12,13 +12,16 @@ import exception.DeletePizzaException;
 
 public class PizzaManage {
 
-	private PizzaDAOImpl pizzaDAOImpl;
+	private PizzaDAO pizzaDAOImpl;
 	
 	private static final Logger LOG = LoggerFactory.getLogger(PizzaManage.class);
 	
 
-	public PizzaManage() {
-		pizzaDAOImpl = new PizzaDAOImpl();
+	
+
+	public PizzaManage(PizzaDAO pizzaDAOImpl) {
+		super();
+		this.pizzaDAOImpl = pizzaDAOImpl;
 	}
 
 	// Check infos

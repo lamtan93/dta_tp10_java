@@ -25,7 +25,7 @@ public class Test_DAO {
 
 	@Before
 	public void setup() {
-		managePizza = new PizzaManage();
+		managePizza = new PizzaManage(daoPizza);
 		daoPizza = new PizzaDAOImpl();
 		listPizza = daoPizza.getListPizza();
 

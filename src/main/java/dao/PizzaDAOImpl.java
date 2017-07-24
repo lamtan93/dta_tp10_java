@@ -18,6 +18,7 @@ public class PizzaDAOImpl implements PizzaDAO{
 
 	private List<Pizza> listPizza;
 	
+	
 
 	public PizzaDAOImpl (){
 		
@@ -39,6 +40,8 @@ public class PizzaDAOImpl implements PizzaDAO{
 	   listPizza.add(p5);
 	   listPizza.add(p6);
 	   listPizza.add(p7);
+	   
+	   
 	}
 	
 	
@@ -53,6 +56,9 @@ public class PizzaDAOImpl implements PizzaDAO{
 		for (Pizza pizza : listPizza) {
 			System.out.println(pizza);
 		}
+		
+	
+		
 		new AppService().executer("Client a sélectionné 1 pour La liste !");
 	}
 	
@@ -69,6 +75,8 @@ public class PizzaDAOImpl implements PizzaDAO{
 		newPizza.setIndex(listPizza.size());
 		
 		listPizza.add(newPizza);
+		
+		
 		new AppService().executer(
 				"Client a ajouté une pizza dans la liste !" + "\n" + newPizza.getIndex()
 		+" " + newPizza.getCode()+" "+ newPizza.getNom() + " " + newPizza.getPrix() + " "+ newPizza.getCategoriePizza()
@@ -92,6 +100,7 @@ public class PizzaDAOImpl implements PizzaDAO{
 
 	@Override
 	public void deletePizza(int indexPizza)throws DeletePizzaException {
+		
 		boolean indexFound = false;
 		 for (Pizza pizza : listPizza) {
 			if(pizza.getIndex() == indexPizza){
@@ -109,6 +118,9 @@ public class PizzaDAOImpl implements PizzaDAO{
 			throw new DeletePizzaException(DeletePizzaException.DELETEPIZZA_INDEX_NOT_CORRECT, DeletePizzaException.ERRTYPE_DELETE_PIZZA);
 			
 		}
+		
+		
+		
 		
 		
 	}

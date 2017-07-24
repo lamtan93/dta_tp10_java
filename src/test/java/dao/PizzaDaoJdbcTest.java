@@ -19,58 +19,69 @@ import service.PizzaManage;
 import test.Test_H2Database;
 
 public class PizzaDaoJdbcTest {
-	
-	
-public static final Logger LOG = LoggerFactory.getLogger(PizzaDaoJdbcTest.class);
-	
-	private connectionJdbc_Impl connectionJdbc_Impl =null;
+
+	public static final Logger LOG = LoggerFactory.getLogger(PizzaDaoJdbcTest.class);
+
+	private connectionJdbc_Impl connectionJdbc_Impl = null;
 	PreparedStatement preparedStatement = null;
 	Statement statement = null;
-	
-	
+
 	private PizzaDaoJdbc pizzaDaoJdbc;
 	private PizzaManage managePizza;
 	private PizzaDAOImpl daoPizza;
-	
+
 	private Test_H2Database h2_Database;
-	
+
 	Connection con;
-	
-	
-	
+
 	@Before
-	public void setupConnectionJdbc() throws ClassNotFoundException, SQLException{
+	public void setupConnectionJdbc() throws ClassNotFoundException, SQLException {
 		connectionJdbc_Impl = new connectionJdbc_Impl();
 		con = connectionJdbc_Impl.connecterJDBC();
-		
+
 		statement = con.createStatement();
-		
-		
-		managePizza = new PizzaManage();
+
 		daoPizza = new PizzaDAOImpl();
+		managePizza = new PizzaManage(daoPizza);
 		
+
 		h2_Database = new Test_H2Database();
 		h2_Database.setupConnectionJdbc();
 		h2_Database.createTables();
 	}
 
-
 	@Test
-	public void testAddPizzaPizza() throws SQLException {
+	public void testAddPizzaPizza() throws SQLException, ClassNotFoundException {
 		pizzaDaoJdbc = new PizzaDaoJdbc();
 		pizzaDaoJdbc.addPizza("FR", "Fr_Pizza", 19, CategoriePizza.FROMAGE);
-		
-		
+
 		String codePizza = "";
-		
-			ResultSet rs = statement.executeQuery("select * from Pizza");
-			
-			while(rs.next()){
-				codePizza = rs.getString(2);
-			}
-			
-			
-	
+
+		ResultSet rs = statement.executeQuery("select * from Pizza");
+
+		while (rs.next()) {
+			codePizza = rs.getString(2);
+		}
+
 		assertThat(codePizza).isEqualToIgnoringCase("FR");
-}
+	}
+	
+//	@Test
+//	public void testUpdatePizza() throws ClassNotFoundException, SQLException{
+//		pizzaDaoJdbc = new PizzaDaoJdbc();
+//
+//		String sql = "SELECT * from Pizza";
+//		ResultSet res = statement.executeQuery(sql);
+//		String nomPizza = "";
+//		while(res.next()){
+//			if(res.getInt("index")== 1){
+//				pizzaDaoJdbc.updatePizza(1, "ITL", "Italie_Pizza", 19, CategoriePizza.FROMAGE);
+//				nomPizza = res.getString(3);
+//			}
+//		}
+//		assertThat(nomPizza).isEqualToIgnoringCase("Italie_Pizza");
+//		
+//		
+//	}
+	
 }

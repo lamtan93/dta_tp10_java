@@ -20,10 +20,10 @@ public class Menu {
 	private NouvellePizzaOptionMenu nouvellePizzaOptionMenu;
 	private MisAJourOptionMenu misAJourOptionMenu;
 	private SupressionPizzaOptionMenu supressionPizzaOtionMenu;
-	private PizzaManage pizzaManager;
 
-	public Menu() {
-		pizzaManager = new PizzaManage();
+
+	public Menu(PizzaManage pizzaManager) {
+		
 		listerPizzaOptionMenu = new ListerPizzasOptionMenu(pizzaManager);
 		nouvellePizzaOptionMenu = new NouvellePizzaOptionMenu(pizzaManager);
 		misAJourOptionMenu = new MisAJourOptionMenu(pizzaManager);

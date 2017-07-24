@@ -37,8 +37,9 @@ public class Test_H2Database {
 		
 		statement = con.createStatement();
 		
-		managePizza = new PizzaManage();
 		daoPizza = new PizzaDAOImpl();
+		managePizza = new PizzaManage(daoPizza);
+		
 		
 		
 		createTables();

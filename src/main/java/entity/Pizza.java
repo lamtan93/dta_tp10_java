@@ -2,13 +2,24 @@ package entity;
 
 import java.lang.reflect.Field;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Enumerated;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class Pizza {
 
+@Entity
+public class Pizza {
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY.AUTO)
 	@ToString
-	private int index;
+	private int id;
 	
 	@ToString
 	private String code;
@@ -17,6 +28,9 @@ public class Pizza {
 	private String nom;
 	@ToString
 	private double prix;
+	
+	@Column(name = "categorie", nullable = true)
+	@Enumerated
 	@ToString
 	private CategoriePizza categoriePizza;
 
@@ -25,9 +39,9 @@ public class Pizza {
 
 	private static final Logger LOG = LoggerFactory.getLogger(Pizza.class);
 
-	public Pizza(int index, String code, String nom, double prix, CategoriePizza categoriePizza) {
+	public Pizza(Integer index, String code, String nom, double prix, CategoriePizza categoriePizza) {
 
-		this.index = index;
+		this.id = index;
 		this.code = code;
 		this.nom = nom;
 		this.prix = prix;
@@ -61,12 +75,12 @@ public class Pizza {
     }
 	
 	
-	public int getIndex() {
-		return index;
+	public Integer getIndex() {
+		return id;
 	}
 
-	public void setIndex(int index) {
-		this.index = index;
+	public void setIndex(Integer index) {
+		this.id = index;
 	}
 
 	public String getCode() {
