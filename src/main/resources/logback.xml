@@ -36,19 +36,31 @@
 
 <!-- politique de log pour les classes du package dev.console -->
 
-<logger name="entity" level="INFO">
+<logger name="dev.entity" level="INFO">
 
 <appender-ref ref="STDOUT" />
 
 </logger>
 
-<logger name="service" level="INFO">
+<logger name="dev.service" level="INFO">
 
 <appender-ref ref="STDOUT" />
 
 </logger>
 
 <logger name="test" level="INFO">
+
+<appender-ref ref="STDOUT" />
+
+</logger>
+
+<logger name="dev.console" level="INFO">
+
+<appender-ref ref="STDOUT" />
+
+</logger>
+
+<logger name="dev.dao" level="INFO">
 
 <appender-ref ref="STDOUT" />
 

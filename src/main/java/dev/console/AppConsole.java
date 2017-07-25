@@ -1,7 +1,7 @@
 package dev.console;
 
-import dao.PizzaDAO;
-import dao.PizzaDaoJpa;
+import dev.dao.PizzaDAO;
+import dev.dao.PizzaDaoJpa;
 import service.PizzaManage;
 
 public class AppConsole {

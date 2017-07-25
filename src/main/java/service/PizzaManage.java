@@ -4,10 +4,10 @@ package service;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import dao.PizzaDAO;
-import entity.CategoriePizza;
-import entity.Pizza;
-import exception.DeletePizzaException;
+import dev.dao.PizzaDAO;
+import dev.entity.CategoriePizza;
+import dev.entity.Pizza;
+import dev.exception.DeletePizzaException;
 
 
 public class PizzaManage {

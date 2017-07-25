@@ -9,10 +9,10 @@ import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import dao.PizzaDAOImpl;
-import entity.CategoriePizza;
-import entity.Pizza;
-import exception.DeletePizzaException;
+import dev.dao.PizzaDAOImpl;
+import dev.entity.CategoriePizza;
+import dev.entity.Pizza;
+import dev.exception.DeletePizzaException;
 import service.PizzaManage;
 
 public class Test_DAO {
