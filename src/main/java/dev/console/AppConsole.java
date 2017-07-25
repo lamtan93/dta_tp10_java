@@ -1,8 +1,7 @@
 package dev.console;
 
 import dao.PizzaDAO;
-import dao.PizzaDAOImpl;
-import entity.Menu;
+import dao.PizzaDaoJpa;
 import service.PizzaManage;
 
 public class AppConsole {
@@ -10,17 +9,12 @@ public class AppConsole {
 	public static void main (String [] args){
 		
 
-		PizzaDAO dao = new PizzaDAOImpl();
-		//PizzaDAO daoJpa = new PizzaDaoJpa();
-		PizzaManage pizzaManage = new PizzaManage(dao);
-		Menu m = new Menu(pizzaManage);
-		m.afficher();
+		//PizzaDAO dao = new PizzaDAOImpl();
+		PizzaDAO daoJpa = new PizzaDaoJpa();
+		PizzaManage pizzaManage = new PizzaManage(daoJpa);
+//		Menu m = new Menu(pizzaManage);
+//		m.afficher();
 		
-		
-		
-		
-		
-//		PizzaDaoJpa pizzaDaoJpa = new PizzaDaoJpa();
 
 		
 //		Pizza p0 = new Pizza("PEP", "Peperoni", 12.50, CategoriePizza.VIANDE);

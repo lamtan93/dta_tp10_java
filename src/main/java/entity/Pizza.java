@@ -1,5 +1,6 @@
 package entity;
 
+import java.io.Serializable;
 import java.lang.reflect.Field;
 
 import javax.persistence.Column;
@@ -14,10 +15,10 @@ import org.slf4j.LoggerFactory;
 
 
 @Entity
-public class Pizza {
+public class Pizza implements Serializable {
 	
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@ToString
 	private int id;
 	
